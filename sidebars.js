@@ -166,17 +166,7 @@ const sidebars = {
         'documentation-workflow',
         'growth-roadmap',
         'keyboard_shortcuts',
-        {
-          type: 'category',
-          label: 'Strategic Resources',
-          items: [
-            {
-              type: 'link',
-              label: 'UAGC Reddit Brand Perception Report',
-              href: 'https://omac049.github.io/UAGC-Strategic-Intelligence/reddit/UAGC-Reddit-Brand-Perception-Report.html',
-            },
-          ],
-        },
+
         {
           type: 'category',
           label: 'Draft Documents',
