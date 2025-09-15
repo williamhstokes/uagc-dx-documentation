@@ -334,6 +334,18 @@ Next scheduled Docs Day: **September 15, 2025**
 | Fix SEO Issue | [SEO Hygiene](/guides/seo-hygiene) | Omar |
 | Run QA Check | [QA Smoke Test](/guides/qa-smoke-test) | Brian |
 
+## Strategic Resources
+
+### Brand Intelligence Reports
+
+**UAGC Reddit Brand Perception Report** - [View Interactive Dashboard →](https://omac049.github.io/UAGC-Strategic-Intelligence/reddit/UAGC-Reddit-Brand-Perception-Report.html)
+
+Comprehensive analysis of UAGC brand mentions, sentiment trends, and competitive positioning across Reddit communities. Use this report for:
+- Brand health monitoring and reputation management
+- Competitive intelligence and market positioning insights
+- Content strategy development and trending topic identification
+- Crisis management and issue response planning
+
 ## Contributing
 
 Learn how to contribute to this documentation in the [Documentation Workflow](/documentation-workflow) guide.

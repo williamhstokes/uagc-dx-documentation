@@ -55,16 +55,4 @@ When a task is deployed, a deploy note is posted in the #groupchat channel.
 - Keep task descriptions concise but complete
 - Include all relevant URLs and assets
 - Tag appropriate team members
-- Update status regularly
-
-## Strategic Resources
-
-### Brand Intelligence Reports
-
-**UAGC Reddit Brand Perception Report** - [View Interactive Dashboard →](https://omac049.github.io/UAGC-Strategic-Intelligence/reddit/UAGC-Reddit-Brand-Perception-Report.html)
-
-Comprehensive analysis of UAGC brand mentions, sentiment trends, and competitive positioning across Reddit communities. Use this report for:
-- Brand health monitoring and reputation management
-- Competitive intelligence and market positioning insights
-- Content strategy development and trending topic identification
-- Crisis management and issue response planning 
+- Update status regularly 
