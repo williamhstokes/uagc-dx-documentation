@@ -25,15 +25,14 @@ The UAGC Reddit Brand Perception Report analyzes online conversations, sentiment
   src="https://omac049.github.io/UAGC-Strategic-Intelligence/reddit/UAGC-Reddit-Brand-Perception-Report.html" 
   width="100%" 
   height="800" 
-  frameborder="0" 
-  style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"
+  frameBorder="0" 
+  style={{border: '1px solid #ddd', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.1)'}}
   title="UAGC Reddit Brand Perception Report">
-  <p>Your browser does not support iframes. 
-     <a href="https://omac049.github.io/UAGC-Strategic-Intelligence/reddit/UAGC-Reddit-Brand-Perception-Report.html" target="_blank">
-       Access the full report here →
-     </a>
-  </p>
 </iframe>
+
+:::note Fallback Access
+If the report doesn't load above, [access the full report directly here →](https://omac049.github.io/UAGC-Strategic-Intelligence/reddit/UAGC-Reddit-Brand-Perception-Report.html)
+:::
 
 ---
 
@@ -212,6 +211,6 @@ The UAGC Reddit Brand Perception Report analyzes online conversations, sentiment
 
 ---
 
-**Direct Report Access:** [Open Full Report →](https://omac049.github.io/UAGC-Strategic-Intelligence/reddit/UAGC-Reddit-Brand-Perception-Report.html){:target="_blank"}
+**Direct Report Access:** [Open Full Report →](https://omac049.github.io/UAGC-Strategic-Intelligence/reddit/UAGC-Reddit-Brand-Perception-Report.html)
 
 **Last Updated:** September 2025 | **Next Review:** October 2025
