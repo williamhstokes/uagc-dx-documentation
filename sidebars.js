@@ -210,6 +210,33 @@ const sidebars = {
             'programs/dps-organizational-development-leadership',
           ],
         },
+        {
+          type: 'category',
+          label: 'Program Intelligence',
+          items: [
+            'programs/academic-programs-catalog',
+            'programs/program-specifications',
+            'programs/firecrawl-implementation-roadmap',
+          ],
+        },
+      ],
+    },
+  ],
+
+  // Strategic Intelligence section
+  strategicIntelligenceSidebar: [
+    {
+      type: 'category',
+      label: 'Strategic Intelligence',
+      items: [
+        'strategic-intelligence/index',
+        {
+          type: 'category',
+          label: 'Brand Perception & Social Intelligence',
+          items: [
+            'strategic-intelligence/reddit-brand-perception',
+          ],
+        },
       ],
     },
   ],
