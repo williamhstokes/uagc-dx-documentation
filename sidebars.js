@@ -168,6 +168,17 @@ const sidebars = {
         'keyboard_shortcuts',
         {
           type: 'category',
+          label: 'Strategic Resources',
+          items: [
+            {
+              type: 'link',
+              label: 'UAGC Reddit Brand Perception Report',
+              href: 'https://omac049.github.io/UAGC-Strategic-Intelligence/reddit/UAGC-Reddit-Brand-Perception-Report.html',
+            },
+          ],
+        },
+        {
+          type: 'category',
           label: 'Draft Documents',
           items: [
             'outline-draft/outline',
@@ -223,23 +234,7 @@ const sidebars = {
     },
   ],
 
-  // Strategic Intelligence section
-  strategicIntelligenceSidebar: [
-    {
-      type: 'category',
-      label: 'Strategic Intelligence',
-      items: [
-        'strategic-intelligence/index',
-        {
-          type: 'category',
-          label: 'Brand Perception & Social Intelligence',
-          items: [
-            'strategic-intelligence/reddit-brand-perception',
-          ],
-        },
-      ],
-    },
-  ],
+
 };
 
 export default sidebars;

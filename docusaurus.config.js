@@ -144,12 +144,7 @@ const config = {
             position: 'left',
             label: 'Program SEO',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'strategicIntelligenceSidebar',
-            position: 'left',
-            label: 'Strategic Intelligence',
-          },
+
           {
             type: 'html',
             position: 'right',
