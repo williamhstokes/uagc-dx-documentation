@@ -1,131 +1,141 @@
 # Common Tasks
 
-This guide provides step-by-step instructions for the most frequently performed tasks in managing the UAGC Digital Experience.
+Quick access to the most frequently performed tasks, organized by role and urgency.
 
-## Content Updates
+:::tip Quick Start
+New to the team? Start with the **[Getting Started Guide](guides/getting-started.md)** then return here for daily task references.
+:::
 
-### Update Existing Page Content
+## 🚨 Urgent Tasks (< 30 minutes)
 
-1. Navigate to the page in Drupal
-2. Click "Edit" in the admin toolbar
-3. Make necessary changes in the content editor
-4. Click "Save" to publish changes
-5. Verify changes are visible on the live site
+### Website Issues
+| Task | Time | Guide | Owner |
+|------|------|-------|-------|
+| Site down/errors | 5-15 min | [Release & Incident](guides/release-incident.md) | Jason |
+| Broken links/404s | 10-20 min | [SEO Redirects](guides/seo-redirects.md) | Omar |
+| Form not working | 15-30 min | [RFI Form Guide](request-information-form.md) | Brian |
+| Mobile issues | 20-30 min | [Performance Guide](guides/performance-web-vitals.md) | Brian |
 
-For more details, see [Content Updates](content-updates.md).
+### Analytics & Tracking Issues
+| Task | Time | Guide | Owner |
+|------|------|-------|-------|
+| GA4 data missing | 10-20 min | [Analytics Standards](analytics-standards.md) | Omar |
+| GTM tags not firing | 15-25 min | [GTM Configuration](gtm-configuration-datalayer.md) | Anthony |
+| A/B test broken | 20-30 min | [Optimizely Tests](guides/optimizely-tests.md) | Anthony |
 
-### Update Page Meta Information
+## 📅 Daily Operations (30-60 minutes)
 
-1. Navigate to the page in Drupal
-2. Click "Edit" in the admin toolbar
-3. Scroll to the SEO section
-4. Update title, description, or keywords as needed
-5. Click "Save" to publish changes
+### Content Management
+- **Update page content**: [Page Changes Guide](guides/page-changes.md) → Create Asana task → Edit in Drupal → QA test
+- **Fix SEO issues**: [SEO Hygiene](guides/seo-hygiene.md) → GSC analysis → Implement fixes → Monitor results  
+- **Review site performance**: [Core Web Vitals](guides/performance-web-vitals.md) → PageSpeed audit → Optimize images → Test mobile
 
-For SEO best practices, see [SEO Hygiene](guides/seo-hygiene.md).
+### Development Workflows
+- **Code review process**: [Drupal Standards](guides/drupal-standards.md) → Review PR → Test locally → Approve/request changes
+- **Release preparation**: [Release Procedures](guides/release-incident.md) → QA smoke test → Stakeholder approval → Deploy
+- **Documentation updates**: [Documentation Workflow](documentation-workflow.md) → Draft content → Technical review → Publish
 
-### Upload Media Files
+## 📊 Weekly Tasks (1-3 hours)
 
-1. In the Drupal admin menu, go to Content > Media
-2. Click "Add media"
-3. Select the appropriate media type (image, document, video)
-4. Upload the file and provide required metadata
-5. Click "Save" to add the media to the library
+### Analytics & Reporting
+| Task | Frequency | Process | Output |
+|------|-----------|---------|--------|
+| **GA4 Health Check** | Weekly | Review data quality, check for anomalies | Status report |
+| **SEO Performance Review** | Weekly | GSC analysis, ranking changes | SEO dashboard update |
+| **A/B Test Analysis** | Weekly | Review running tests, analyze results | Test recommendations |
+| **Site Speed Audit** | Weekly | Core Web Vitals check, performance optimization | Performance report |
 
-## Page Management
+### Quality Assurance  
+- **Comprehensive QA sweep**: [QA Smoke Test](guides/qa-smoke-test.md) → Test all major user flows → Document issues → Create fix tasks
+- **Accessibility audit**: [Accessibility Guidelines](guides/accessibility.md) → Run automated tests → Manual review → Remediation plan
+- **Content review**: [Content Standards](guides/content-standards.md) → Review recent changes → Check for consistency → Update as needed
 
-### Create a New Page
+## 🗓️ Monthly/Quarterly Tasks
 
-1. In Drupal, go to Content > Add content
-2. Select the appropriate content type
-3. Fill in required fields and content
-4. Set up URL alias and SEO metadata
-5. Configure any additional settings (layout, blocks, etc.)
-6. Set publishing options
-7. Click "Save" to create the page
+### Strategic Reviews
+- **Monthly**: Documentation review, process improvements, tool evaluations
+- **Quarterly**: "Docs Day" comprehensive updates, strategic planning, team retrospectives
 
-### Set Up a Redirect
+## 👤 Role-Based Quick Start
 
-1. In Drupal, go to Configuration > Search and Metadata > URL Redirects
-2. Click "Add redirect"
-3. Enter the source path (old URL) and destination path (new URL)
-4. Select the appropriate redirect type (usually 301 Permanent)
-5. Click "Save" to activate the redirect
+### New Team Member Onboarding
+```mermaid
+graph TD
+  A[Day 1: Access Setup] --> B[Read Getting Started Guide]
+  B --> C[Review Team Roles & Responsibilities] 
+  C --> D[Complete First Task with Mentor]
+  D --> E[Week 1: Shadow Daily Operations]
+  E --> F[Week 2: Independent Task Completion]
+  F --> G[Month 1: Full Workflow Integration]
+```
 
-For redirect best practices, see [SEO Redirect Decision Tree](guides/seo-redirects.md).
+**Checklist**:
+- [ ] Access to Asana, GitHub, Drupal admin
+- [ ] Review [who-does-what.md](who-does-what.md) for role clarity  
+- [ ] Complete [Digital Experience Funnel](digital-experience-enrollment-funnel.md) overview
+- [ ] Shadow mentor for first 3 tasks
+- [ ] Complete first independent task with review
 
-## Analytics & Tracking
+### Developer Quick Reference
 
-### View Site Analytics
+#### **Daily Checklist**
+- [ ] Check [GitHub notifications](https://github.com/notifications) for PR reviews
+- [ ] Review [Asana tasks](asana.md) for assigned work
+- [ ] Run [QA smoke test](guides/qa-smoke-test.md) before any deployments
+- [ ] Update documentation for any process changes
 
-1. Log into Google Analytics 4
-2. Navigate to the appropriate property
-3. Select date range for analysis
-4. View reports or create custom reports as needed
+#### **Before Code Release**
+1. **Code Quality**: Follow [Drupal Standards](guides/drupal-standards.md)
+2. **Performance**: Check [Core Web Vitals](guides/performance-web-vitals.md) impact
+3. **Accessibility**: Verify [WCAG compliance](wcag-compliance.md)
+4. **Testing**: Complete [QA procedures](guides/qa-smoke-test.md)
+5. **Documentation**: Update [Recent Updates](recent-updates.md) if significant
 
-For more details, see [GA4 Setup & Event Tracking](ga4-setup-event-tracking.md).
+### Marketing/SEO Quick Reference
 
-### Set Up Event Tracking
+#### **Weekly SEO Tasks**
+1. **Monday**: Review GSC for new issues, check [SEO Hygiene](guides/seo-hygiene.md)
+2. **Wednesday**: Analyze [Analytics Standards](analytics-standards.md) performance 
+3. **Friday**: Update [Strategic Intelligence](https://omac049.github.io/UAGC-Strategic-Intelligence/) reports
 
-1. Identify the element or action to track
-2. In Google Tag Manager, create a new tag
-3. Configure the tag with appropriate event parameters
-4. Set up a trigger to fire the tag
-5. Test the implementation in preview mode
-6. Publish the changes
+#### **Content Optimization Workflow**
+```
+Identify opportunity → Research keywords → Draft content → 
+Internal review → Technical implementation → Performance monitoring
+```
 
-For implementation details, see [GTM Configuration & dataLayer](gtm-configuration-datalayer.md).
+### Project Manager Quick Reference
 
-### Create an Optimizely Test
+#### **Task Management**
+- **Daily**: Review [Asana workflow](asana.md) for task updates and blockers
+- **Weekly**: Check project progress against [Growth Roadmap](growth-roadmap.md)
+- **Monthly**: Facilitate [Documentation Workflow](documentation-workflow.md) reviews
 
-1. Log into Optimizely
-2. Create a new experiment
-3. Define the audience and pages
-4. Create variations
-5. Set up metrics and goals
-6. QA the test in preview mode
-7. Launch the experiment
+#### **Communication Templates**
+- **Status Updates**: Use structured format from [Content Standards](guides/content-standards.md)
+- **Issue Escalation**: Follow [Release & Incident](guides/release-incident.md) procedures
+- **Team Announcements**: Reference [Recent Updates](recent-updates.md) for context
 
-For comprehensive guidance, see [Optimizely Tests](guides/optimizely-tests.md).
+## 🔍 Quick Search Guide
 
-## Troubleshooting
+### Find Information Fast
+| Looking For | Search Terms | Best Pages |
+|-------------|-------------|------------|
+| **How to fix...** | "fix", "troubleshooting", "error" | Guides section, Release procedures |
+| **How to implement...** | "setup", "configuration", "implementation" | Analytics, GTM, Technical guides |
+| **Process for...** | "workflow", "process", "steps" | Documentation workflow, Asana |
+| **Who handles...** | "owner", "responsibility", "contact" | Who does what, Team profiles |
 
-### Debug JavaScript Errors
+### Emergency Contacts
+- **Site Down**: Jason (Backend) + Thomas (Approval)
+- **Analytics Issues**: Omar (SEO/Analytics)  
+- **Process Questions**: Brandy (Operations)
+- **Content Issues**: Brian (Frontend/QA)
 
-1. Open browser developer tools (F12 or right-click > Inspect)
-2. Go to the Console tab
-3. Identify error messages
-4. Check the Sources tab for script execution
-5. Apply fixes to the codebase
-6. Test and verify the solution
+---
 
-### Fix Broken Links
+**Page Status**: ✅ Active | **Last Updated**: Auto-generated | **Next Review**: Quarterly Docs Day
 
-1. Use a tool like Screaming Frog to scan for broken links
-2. For each broken link:
-   - Determine if the destination should exist
-   - Either restore the content or create a redirect
-   - Update the link source if possible
-3. Verify fixes with another scan
-
-### Resolve Performance Issues
-
-1. Run a Lighthouse audit (via Chrome DevTools)
-2. Identify key performance issues
-3. Address high-priority items first:
-   - Image optimization
-   - Script loading optimization
-   - CSS optimization
-   - Server response time
-4. Retest to confirm improvements
-
-For detailed guidance, see [Performance & Core Web Vitals](guides/performance-web-vitals.md).
-
-## Requesting Assistance
-
-If you encounter issues not covered in this guide:
-
-1. Check the [Documentation Workflow](documentation-workflow.md) for relevant procedures
-2. Consult the [Glossary](guides/glossary.md) for technical terms
-3. Identify the appropriate team member using [Team Roles & Responsibilities](who-does-what.md)
-4. Submit a help request using the [RFI Form](request-information-form.md) 
+:::info Need Help?
+Can't find what you're looking for? Check the [Site Map](sitemap.md) or search the documentation using the search feature (press `/`).
+::: 
