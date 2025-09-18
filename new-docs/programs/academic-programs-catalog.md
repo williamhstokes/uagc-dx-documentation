@@ -3,7 +3,7 @@
 *Last Updated: September 2025 | Source: [UAGC.edu](https://www.uagc.edu)*
 
 !!! info "Data Source"
-    This catalog is automatically generated using Firecrawl web scraping technology to ensure accuracy and currency with the official UAGC website.
+    This catalog is automatically generated using advanced web scraping technology to ensure accuracy and currency with the official UAGC website.
 
 ## Overview
 
@@ -130,7 +130,7 @@ All programs emphasize:
 
 ## Documentation Metadata
 
-**Data Collection Method:** Firecrawl automated web scraping  
+**Data Collection Method:** Automated web scraping  
 **Source URLs:** 
 - https://www.uagc.edu/online-degrees/business
 - https://www.uagc.edu/online-degrees/education  

@@ -1,9 +1,9 @@
 # Program Specifications & Details
 
-*Advanced Firecrawl Extraction | Last Updated: September 2025*
+*Advanced Data Extraction | Last Updated: September 2025*
 
 !!! success "Enhanced Documentation"
-    This demonstrates how Firecrawl advanced scraping can extract comprehensive program details including coursework, prerequisites, faculty, and career outcomes for strategic planning and content creation.
+    This demonstrates how advanced scraping techniques can extract comprehensive program details including coursework, prerequisites, faculty, and career outcomes for strategic planning and content creation.
 
 ## Featured Program Analysis
 
@@ -277,7 +277,7 @@ Students can customize their degree with 9-12 credit emphasis options:
 
 ### **Data Collection Process:**
 ```python
-# Firecrawl extraction configuration
+# Data extraction configuration
 program_schema = {
     "courses": {"type": "array"},
     "credits": {"type": "number"},

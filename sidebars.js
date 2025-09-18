@@ -215,7 +215,6 @@ const sidebars = {
           items: [
             'programs/academic-programs-catalog',
             'programs/program-specifications',
-            'programs/firecrawl-implementation-roadmap',
           ],
         },
       ],
