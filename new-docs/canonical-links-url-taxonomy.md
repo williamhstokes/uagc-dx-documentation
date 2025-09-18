@@ -572,21 +572,305 @@ function uagc_url_cleanup() {
 }
 ```
 
-#### **XML Sitemap Integration**
+#### **XML Sitemap Integration & Management**
+
+UAGC implements an enterprise-level XML sitemap architecture that efficiently organizes content discovery for search engines while supporting the complex hierarchical structure of educational content.
+
+##### **UAGC Sitemap Architecture Overview**
+
+The UAGC website utilizes a **sitemap index structure** at [uagc.edu/sitemap.xml](https://www.uagc.edu/sitemap.xml) that references multiple specialized sitemaps, each optimized for specific content categories:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core Academic Content -->
+  <sitemap>
+    <loc>https://www.uagc.edu/sitemap-online-degrees.xml</loc>
+    <lastmod>2024-01-15T10:30:00+00:00</lastmod>
+  </sitemap>
+  
+  <!-- Admissions & Enrollment -->
+  <sitemap>
+    <loc>https://www.uagc.edu/sitemap-admissions.xml</loc>
+    <lastmod>2024-01-15T10:30:00+00:00</lastmod>
+  </sitemap>
+  
+  <!-- Student Experience & Support -->
+  <sitemap>
+    <loc>https://www.uagc.edu/sitemap-student-experience.xml</loc>
+    <lastmod>2024-01-15T10:30:00+00:00</lastmod>
+  </sitemap>
+  
+  <!-- Financial Aid & Tuition -->
+  <sitemap>
+    <loc>https://www.uagc.edu/sitemap-tuition-financial-aid.xml</loc>
+    <lastmod>2024-01-15T10:30:00+00:00</lastmod>
+  </sitemap>
+  
+  <!-- Military & Veterans -->
+  <sitemap>
+    <loc>https://www.uagc.edu/sitemap-military.xml</loc>
+    <lastmod>2024-01-15T10:30:00+00:00</lastmod>
+  </sitemap>
+  
+  <!-- About & Faculty -->
+  <sitemap>
+    <loc>https://www.uagc.edu/sitemap-about.xml</loc>
+    <lastmod>2024-01-15T10:30:00+00:00</lastmod>
+  </sitemap>
+  
+  <!-- Partnerships & Alliances -->
+  <sitemap>
+    <loc>https://www.uagc.edu/sitemap-partnerships.xml</loc>
+    <lastmod>2024-01-15T10:30:00+00:00</lastmod>
+  </sitemap>
+  
+  <!-- Content Marketing -->
+  <sitemap>
+    <loc>https://www.uagc.edu/sitemap-blog.xml</loc>
+    <lastmod>2024-01-15T10:30:00+00:00</lastmod>
+  </sitemap>
+  
+  <!-- News & Media -->
+  <sitemap>
+    <loc>https://www.uagc.edu/sitemap-google-news.xml</loc>
+    <lastmod>2024-01-15T10:30:00+00:00</lastmod>
+  </sitemap>
+</sitemapindex>
+```
+
+##### **Drupal Simple XML Sitemap Configuration**
+
+**Initial Setup:**
 ```bash
-# Install Simple XML Sitemap module for better indexing
+# Install and enable sitemap generation
 composer require drupal/simple_sitemap
 drush en simple_sitemap -y
 
-# Configure programmatically for UAGC content priorities
+# Configure sitemap generation settings
+drush config-set simple_sitemap.settings max_links_per_sitemap 50000
+drush config-set simple_sitemap.settings remove_duplicates true
+drush config-set simple_sitemap.settings skip_untranslated true
+```
+
+**UAGC Content Priority Configuration:**
+```php
+// Configure content type priorities in settings.php or custom module
+$config['simple_sitemap.settings']['content_types'] = [
+  // Highest Priority: Core Academic Content
+  'academic_program' => [
+    'priority' => '1.0',
+    'changefreq' => 'monthly',
+    'include_images' => true,
+  ],
+  
+  // High Priority: Conversion-Focused Pages
+  'admissions_page' => [
+    'priority' => '0.9',
+    'changefreq' => 'weekly', 
+    'include_images' => true,
+  ],
+  
+  // Important: Student Journey Support
+  'student_resource' => [
+    'priority' => '0.8',
+    'changefreq' => 'monthly',
+    'include_images' => false,
+  ],
+  
+  // Standard: Informational Content
+  'basic_page' => [
+    'priority' => '0.7',
+    'changefreq' => 'monthly',
+    'include_images' => false,
+  ],
+  
+  // Lower Priority: Blog and News
+  'article' => [
+    'priority' => '0.6',
+    'changefreq' => 'never', // After initial publication
+    'include_images' => false,
+  ],
+];
+```
+
+##### **Content Category Sitemap Segmentation**
+
+**Academic Programs Sitemap** (`sitemap-online-degrees.xml`):
+- All degree program pages with highest SEO priority
+- Include program comparison pages and degree finder tools
+- Priority: 1.0, Changefreq: monthly
+- Include program images and multimedia content
+
+**Admissions & Enrollment Sitemap** (`sitemap-admissions.xml`):
+- Application pages, requirement information, and transfer credit
+- High-conversion funnel pages with strong SEO value
+- Priority: 0.9, Changefreq: weekly
+- Exclude test/variant pages, include only canonical admission paths
+
+**Student Experience Sitemap** (`sitemap-student-experience.xml`):
+- Support services, career resources, alumni information
+- Priority: 0.8, Changefreq: monthly
+- Include student success stories and testimonials
+
+**Military-Specific Sitemap** (`sitemap-military.xml`):
+- Service branch pages, military benefits, spouse/dependent resources
+- Priority: 0.9 (high value for military SEO)
+- Changefreq: monthly, Include military partnership content
+
+##### **Advanced Sitemap Configuration**
+
+**Custom URL Inclusion Rules:**
+```php
+// Include only canonical URLs in sitemaps
+function uagc_sitemap_url_filter($url, $url_variant, $entity, $entity_type) {
+  // Exclude non-canonical program variants
+  if ($entity_type === 'node' && $entity->bundle() === 'academic_program') {
+    if ($entity->hasField('field_canonical_program') && 
+        !$entity->field_canonical_program->isEmpty()) {
+      return false; // Exclude non-canonical program variants
+    }
+  }
+  
+  // Exclude paid campaign landing pages from organic sitemap
+  if (strpos($url, '/success/') === 0) {
+    return false; 
+  }
+  
+  // Include only published, indexable content
+  return $entity->isPublished() && 
+         !$entity->hasField('field_noindex') || 
+         $entity->field_noindex->value == false;
+}
+```
+
+**Automated Sitemap Generation:**
+```bash
+# Set up automated sitemap regeneration
+drush cron-set simple_sitemap 'simple_sitemap:generate'
+
+# Generate sitemaps programmatically after content updates
 drush simple-sitemap:generate-batch
 
-# Priority configuration for UAGC content types:
-# - Academic programs: Priority 1.0
-# - Admissions pages: Priority 0.9
-# - Student experience: Priority 0.8
-# - About pages: Priority 0.7
+# Verify sitemap integrity
+drush simple-sitemap:rebuild-queue
 ```
+
+##### **SEO Optimization & Best Practices**
+
+**URL Filtering & Clean Structure:**
+- **Include Only Canonical URLs**: Prevent duplicate content indexing
+- **Exclude Parameter-Heavy URLs**: Remove tracking parameters from sitemap URLs
+- **Filter Paid Campaign Pages**: Keep `/success/` paths out of organic sitemaps
+- **Include Only Published Content**: Automatic filtering of draft/unpublished pages
+
+**Image Sitemap Integration:**
+```php
+// Include relevant images for degree programs and key pages
+$config['simple_sitemap.settings']['include_images'] = [
+  'academic_program' => true,    // Include program images
+  'faculty_profile' => true,     // Include faculty photos  
+  'student_resource' => false,   // Skip generic resource images
+  'basic_page' => false,         // Exclude basic page images
+];
+```
+
+**Mobile-First Sitemap Considerations:**
+- Ensure all sitemap URLs are mobile-responsive
+- Include AMP versions where applicable for blog content
+- Validate mobile usability for all included URLs
+
+##### **Monitoring & Maintenance Procedures**
+
+**Google Search Console Integration:**
+```bash
+# Submit sitemaps to Google Search Console
+# Primary sitemap index:
+https://www.uagc.edu/sitemap.xml
+
+# Individual category sitemaps for detailed monitoring:
+https://www.uagc.edu/sitemap-online-degrees.xml
+https://www.uagc.edu/sitemap-admissions.xml
+https://www.uagc.edu/sitemap-military.xml
+```
+
+**Performance Monitoring:**
+- **Weekly**: Monitor sitemap submission status in Search Console
+- **Monthly**: Review sitemap indexing rates and coverage reports
+- **Quarterly**: Audit sitemap structure for new content categories
+
+**Error Detection & Resolution:**
+```bash
+# Check for sitemap errors
+drush simple-sitemap:error-check
+
+# Validate sitemap XML structure
+xmllint --noout --schema sitemap.xsd sitemap.xml
+
+# Monitor for 404s in submitted URLs
+drush redirect:check-sitemap-urls
+```
+
+##### **Enterprise Sitemap Optimization**
+
+**Large Site Considerations:**
+- **Split by Content Category**: Maintain separate sitemaps for different content types
+- **Limit URLs per Sitemap**: Keep under 50,000 URLs per individual sitemap
+- **Compression Support**: Enable gzip compression for large sitemap files
+- **CDN Integration**: Serve sitemaps through CDN for faster global access
+
+**Content Freshness Management:**
+```php
+// Automatically update lastmod dates based on content changes
+function uagc_update_sitemap_lastmod($entity) {
+  if ($entity->getEntityTypeId() === 'node') {
+    $sitemap_service = \Drupal::service('simple_sitemap.generator');
+    $sitemap_service->rebuildQueue();
+  }
+}
+```
+
+**Multi-Domain Coordination:**
+- **Cross-Domain Reference**: Include appropriate cross-references for `login.uagc.edu`, `connect.uagc.edu`
+- **Subdomain Sitemaps**: Maintain separate sitemaps for specialized platforms
+- **Canonical Coordination**: Ensure sitemaps reflect proper canonical relationships
+
+##### **Quality Assurance Checklist**
+
+**Pre-Deployment Validation:**
+- [ ] All sitemap URLs return HTTP 200 status codes
+- [ ] No redirect chains in submitted URLs (max 1 redirect per URL)
+- [ ] All URLs use HTTPS protocol consistently
+- [ ] Lastmod dates reflect actual content modification times
+- [ ] No duplicate URLs across different category sitemaps
+- [ ] Mobile-responsive validation for all submitted URLs
+
+**Post-Deployment Monitoring:**
+- [ ] Google Search Console shows successful sitemap submission
+- [ ] No validation errors reported in Search Console
+- [ ] Indexing rate improvements after sitemap optimization
+- [ ] Coverage reports show expected URL inclusion/exclusion patterns
+
+##### **Integration with Analytics & SEO Strategy**
+
+**Search Console Integration:**
+```javascript
+// Track sitemap performance in GA4
+gtag('event', 'sitemap_coverage', {
+  'sitemap_category': 'online-degrees',
+  'submitted_urls': 1245,
+  'indexed_urls': 1198,
+  'coverage_rate': 0.962
+});
+```
+
+**Performance Impact Measurement:**
+- Monitor organic discovery rates for new content
+- Track indexing speed improvements
+- Measure click-through rates from search results
+- Analyze crawl budget efficiency improvements
+
+This comprehensive sitemap strategy aligns with UAGC's complex content architecture while maintaining optimal SEO performance and search engine discoverability.
 
 ### Quality Assurance
 
