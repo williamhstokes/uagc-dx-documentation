@@ -2,14 +2,15 @@
 
 This page lists recent significant updates to the UAGC Digital Experience Documentation.
 
-:::tip Auto-Update Process
-This page is maintained through our [Documentation Workflow](documentation-workflow.md) and updated during quarterly "Docs Day" reviews. See [How to Add Updates](#how-to-add-updates) below.
+:::tip Automated Update Process
+This page is **automatically updated** on every push to the main branch using GitHub Actions and intelligent commit analysis. Significant documentation changes are automatically categorized and added to this page within minutes of being committed.
 :::
 
-:::info Last Updated
-**Page Last Modified:** *Generated automatically on page build*  
-**Next Scheduled Review:** March 15, 2026 (Quarterly Docs Day)  
-**Auto-Update Status:** 🟢 Active
+:::info Live Status
+**Page Last Modified:** *Auto-generated from latest commits*  
+**Auto-Update Status:** 🤖 **Fully Automated** via GitHub Actions  
+**Manual Override:** Add `[skip-updates]` to commit messages to bypass automation  
+**Next Quarterly Review:** March 15, 2026 (Docs Day cleanup)
 :::
 
 ## September 2025
@@ -227,21 +228,33 @@ If you notice missing updates or have suggestions:
 
 ## Automated Update Integration
 
-### Currently Implemented:
-- ✅ Git hook integration prompts for update entries
-- ✅ NPM script automation (`npm run updates`)
-- ✅ Automated timestamp generation
-- ✅ Live page timestamp display
+### ✅ Fully Implemented:
+- 🤖 **GitHub Actions Automation**: Runs on every push to main branch
+- 📝 **Smart Commit Analysis**: Automatically categorizes and filters significant changes  
+- 🎯 **Intelligent Filtering**: Excludes minor changes, typos, and automated commits
+- 📊 **Auto-Categorization**: Uses keyword detection and significance scoring
+- ⚡ **Real-time Updates**: Changes appear within minutes of commit
+- 🔍 **Validation Pipeline**: Ensures documentation integrity after each update
+- 📧 **Summary Reports**: GitHub Actions provides detailed update summaries
 
-### Future Enhancements Planned:
-- 📅 Slack bot reminders for section owners
-- 📊 Monthly automated summary generation  
-- 🔗 Integration with Asana task completion
-- 🤖 AI-powered update categorization
-- ⏰ Calendar integration for scheduled reviews
+### 🚀 Advanced Features:
+- **Significance Scoring**: Prioritizes important changes (security, analytics, major features)
+- **Smart Descriptions**: Auto-generates contextual descriptions based on change type
+- **Duplicate Prevention**: Prevents redundant entries and automated update loops
+- **Batch Processing**: Groups related changes by date and category
+- **Dry-run Testing**: `npm run auto-update-dry` for safe testing
+
+### 📋 Available Commands:
+```bash
+npm run auto-update     # Run full automation
+npm run auto-update-dry # Test without making changes
+npm run updates         # Generate draft for manual review
+npm run timestamp-validate # Validate all timestamps
+```
 
 ---
 
-**Last Generated:** September 7, 2025  
-**Auto-Update Status:** 🟢 Active  
-**Next Automation Run:** October 1, 2025 at 9:00 AM 
+**Last Generated:** *Automatically updated on every commit*  
+**Auto-Update Status:** 🤖 **Fully Automated via GitHub Actions**  
+**Workflow File:** `.github/workflows/auto-update-recent-changes.yml`  
+**Manual Override:** Add `[skip-updates]` to commit message when needed 
