@@ -89,7 +89,6 @@ const sidebars = {
       items: [
         'ga4-setup-event-tracking',
         'gtm-configuration-datalayer',
-        'lead-api-salesforce-integration',
       ],
     },
     {

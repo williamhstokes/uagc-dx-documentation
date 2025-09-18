@@ -125,5 +125,4 @@ Custom reports have been created for:
 
 - [Analytics Strategy & Governance](analytics-standards.md)
 - [KPIs for Enrollment Funnel](enrollment-funnel-kpis.md)
-- [GTM Configuration & dataLayer](gtm-configuration-datalayer.md)
-- [BigQuery Pipelines](guides/bigquery.md) 
+- [GTM Configuration & dataLayer](gtm-configuration-datalayer.md) 

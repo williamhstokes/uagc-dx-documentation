@@ -38,7 +38,7 @@ This page provides a complete overview of all documentation available on this si
 - [Analytics Standards](analytics-standards.md)
 
 ### Implementation
-- [BigQuery Pipelines](guides/bigquery.md)
+- [Analytics Standards](analytics-standards.md)
 
 ### Testing & Optimization
 - [Optimizely Tests](guides/optimizely-tests.md)
@@ -87,7 +87,6 @@ This page provides a complete overview of all documentation available on this si
 ### Marketing
 - [Optimizely Tests](guides/optimizely-tests.md)
 - [Analytics Standards](analytics-standards.md)
-- [BigQuery Pipelines](guides/bigquery.md)
 
 ### Team Lead
 - [Getting Started with Documentation](guides/getting-started.md)

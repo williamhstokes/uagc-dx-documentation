@@ -93,7 +93,6 @@ References & Tools
 - guides/optimizely-tests.md
 - ga4-setup-event-tracking.md (to be created)
 - gtm-configuration-datalayer.md (to be created)
-- lead-api-salesforce-integration.md (to be created)
 - guides/privacy-consent.md
 - guides/bigquery.md (to be created)
 - cookie-organization.md (to be created)

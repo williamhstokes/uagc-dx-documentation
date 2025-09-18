@@ -99,6 +99,4 @@ For access to dashboards, contact the Analytics team.
 ## Related Documentation
 
 - [Analytics Strategy & Governance](analytics-standards.md)
-- [GA4 Setup & Event Tracking](ga4-setup-event-tracking.md)
-- [BigQuery Pipelines](guides/bigquery.md)
-- [Lead API & Salesforce Data Flow](lead-api-salesforce-integration.md) 
+- [GA4 Setup & Event Tracking](ga4-setup-event-tracking.md) 
