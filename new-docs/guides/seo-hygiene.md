@@ -880,3 +880,344 @@ This SEO strategy directly supports UAGC's crisis recovery objectives by address
 **For strategic intelligence and cross-pillar coordination, access the [UAGC Strategic Intelligence Platform](https://github.com/omac049/UAGC-Strategic-Intelligence).**
 
 *This guide is updated quarterly to reflect the latest search engine developments and strategic intelligence insights.* 
+
+## Search Engine Optimization Basics: Title Tags & Meta Descriptions
+
+### Critical Foundation for SEO Success
+
+Proper title tags and meta descriptions are the foundation of effective SEO. These elements serve as the first impression users have of UAGC in search results and directly impact click-through rates (CTR). Based on current performance data showing a critical 0.056% overall CTR, optimizing these basic elements is essential for recovery.
+
+#### **Current Performance Crisis: Title Tag & Meta Description Issues**
+
+**Identified Problem Areas:**
+- **Student Portal (student.uagc.edu)**: Likely missing or poor meta descriptions
+- **Login Pages (login.uagc.edu)**: Generic or absent title optimization
+- **User Login (uagc.edu/user/login)**: Inconsistent branding and messaging
+- **Utility Pages**: Numerous support pages with suboptimal search presence
+
+:::warning Critical Impact
+Poor title tags and meta descriptions are contributing to UAGC's crisis-level 0.056% CTR. These basic SEO elements must be optimized immediately as part of the 90-day recovery strategy.
+:::
+
+### Title Tag Optimization Standards
+
+#### **UAGC Title Tag Framework**
+
+**Structure Formula:**
+```
+Primary Keyword | Function/Benefit | Brand
+```
+
+**Character Limits:**
+- **Optimal Length**: 50-60 characters
+- **Maximum Display**: ~60 characters before truncation
+- **Mobile Consideration**: Slightly shorter for mobile displays
+
+#### **Title Tag Templates by Page Type**
+
+**Student Portal & Login Pages:**
+```html
+<!-- Student Portal -->
+<title>UAGC Student Portal Login | University of Arizona Global Campus</title>
+
+<!-- General Login -->
+<title>UAGC Login | University of Arizona Global Campus</title>
+
+<!-- User Account Login -->
+<title>UAGC User Login | University of Arizona Global Campus</title>
+
+<!-- Password Reset -->
+<title>Reset UAGC Password | University of Arizona Global Campus</title>
+```
+
+**Academic Program Pages:**
+```html
+<!-- Business Programs (Crisis Recovery) -->
+<title>IACBE Accredited Business Degree Online - No GMAT | University of Arizona</title>
+
+<!-- Masters Programs (Page 1 Recovery) -->
+<title>Online Masters Degree for Working Professionals - No GMAT/GRE | UAGC</title>
+
+<!-- Nursing Programs (Success Model) -->
+<title>University of Arizona RN to BSN Online - Working Nurses Program</title>
+```
+
+**Support & Information Pages:**
+```html
+<!-- Admissions -->
+<title>UAGC Online Admissions | University of Arizona Global Campus</title>
+
+<!-- Financial Aid -->
+<title>Financial Aid & Scholarships | University of Arizona Global Campus</title>
+
+<!-- Academic Support -->
+<title>UAGC Academic Support Services | University of Arizona Global Campus</title>
+```
+
+#### **Title Tag Best Practices**
+
+**DO:**
+- ✅ Place primary keywords at the beginning
+- ✅ Include "University of Arizona" for brand authority
+- ✅ Use action-oriented language for functional pages
+- ✅ Maintain consistency across related pages
+- ✅ Test variations for conversion optimization
+
+**DON'T:**
+- ❌ Exceed 60 character limit
+- ❌ Use generic titles like "Login" or "Portal"
+- ❌ Duplicate titles across multiple pages
+- ❌ Stuff keywords unnaturally
+- ❌ Ignore mobile truncation
+
+### Meta Description Optimization Standards
+
+#### **UAGC Meta Description Framework**
+
+**Structure Formula:**
+```
+Value Proposition | Key Benefits | Call to Action | Brand Trust Signal
+```
+
+**Character Limits:**
+- **Optimal Length**: 150-160 characters
+- **Maximum Display**: ~160 characters before truncation
+- **Mobile Consideration**: May show fewer characters
+
+#### **Meta Description Templates by Page Type**
+
+**Student Portal & Login Pages:**
+```html
+<!-- Student Portal -->
+<meta name="description" content="Access your UAGC student portal to manage courses, view grades, and connect with faculty. Log in securely to continue your academic journey with University of Arizona Global Campus.">
+
+<!-- General Login -->
+<meta name="description" content="Log in to your UAGC account to access courses, academic resources, and student services. Secure login for University of Arizona Global Campus students and faculty.">
+
+<!-- User Account Login -->
+<meta name="description" content="Access your UAGC account to explore programs, apply for courses, and manage your educational journey. University of Arizona Global Campus login portal.">
+
+<!-- Password Reset -->
+<meta name="description" content="Reset your UAGC password quickly and securely. Regain access to your University of Arizona Global Campus account and continue your studies without interruption.">
+```
+
+**Academic Program Pages (Crisis Recovery Focus):**
+```html
+<!-- Business Programs (Emergency Priority) -->
+<meta name="description" content="25% average salary increase. IACBE accredited business degree online for working professionals. No GMAT required. University of Arizona Global Campus. Apply today.">
+
+<!-- Masters Programs (Page 1 Recovery) -->
+<meta name="description" content="Advance your career while working full-time. No GMAT or GRE required. 92% of recruiters actively hire masters graduates. University of Arizona Global Campus.">
+
+<!-- Nursing Programs (Success Model to Scale) -->
+<meta name="description" content="RN to BSN program designed for working nurses. Flexible online format, clinical placements near you. University of Arizona Global Campus accredited nursing degree.">
+```
+
+**Support & Information Pages:**
+```html
+<!-- Admissions -->
+<meta name="description" content="Apply to University of Arizona Global Campus online programs. Simple application process, flexible scheduling for working professionals. Start your educational journey today.">
+
+<!-- Financial Aid -->
+<meta name="description" content="Explore financial aid options and scholarships at UAGC. Make your University of Arizona Global Campus education affordable. Apply for aid and start saving today.">
+
+<!-- Academic Support -->
+<meta name="description" content="Access comprehensive academic support services at UAGC. Tutoring, writing center, and student success resources. University of Arizona Global Campus student support.">
+```
+
+#### **Meta Description Best Practices**
+
+**DO:**
+- ✅ Include compelling value propositions
+- ✅ Use active voice and action verbs
+- ✅ Include relevant keywords naturally
+- ✅ Add clear calls-to-action
+- ✅ Highlight unique benefits or features
+- ✅ Include trust signals (accreditation, University of Arizona)
+
+**DON'T:**
+- ❌ Exceed 160 character limit
+- ❌ Use duplicate descriptions across pages
+- ❌ Write vague or generic content
+- ❌ Ignore the value proposition
+- ❌ Use keyword stuffing
+- ❌ Mislead about page content
+
+### Critical Page Optimization Priority List
+
+#### **Immediate Action Required (Days 1-30)**
+
+**High-Traffic Login & Portal Pages:**
+```markdown
+Priority 1: Student Portal Pages
+- https://student.uagc.edu/
+- Title: "UAGC Student Portal Login | University of Arizona Global Campus"
+- Meta: "Access your UAGC student portal to manage courses, view grades, and connect with faculty. Log in securely to continue your academic journey."
+
+Priority 2: Login Pages
+- https://login.uagc.edu/
+- Title: "UAGC Login | University of Arizona Global Campus"
+- Meta: "Log in to your UAGC account to access courses, academic resources, and student services. Secure portal for University of Arizona Global Campus."
+
+Priority 3: User Account Pages
+- https://www.uagc.edu/user/login
+- Title: "UAGC User Login | University of Arizona Global Campus"
+- Meta: "Access your UAGC account to explore programs, apply for courses, and manage your educational journey. University of Arizona Global Campus portal."
+```
+
+**Crisis Recovery Program Pages:**
+```markdown
+Emergency Priority: Business Programs
+- Target CTR improvement from 0.01% to 2%+
+- Implement "No GMAT Required" messaging
+- Emphasize "Working Professionals" focus
+
+High Priority: Masters Programs  
+- Target Page 1 rankings (currently position 11.61)
+- Implement "No GMAT/GRE" messaging
+- Focus on career advancement benefits
+```
+
+#### **Secondary Optimization (Days 31-60)**
+
+**Support & Information Pages:**
+- Admissions pages and requirements
+- Financial aid and scholarship information
+- Academic support and student services
+- Program-specific landing pages
+
+**Content & Resource Pages:**
+- Blog posts and educational content
+- Faculty and staff directories
+- News and announcements
+- Partnership and accreditation pages
+
+### Implementation Checklist
+
+#### **Quality Assurance Protocol**
+
+**Pre-Implementation Testing:**
+- [ ] Verify character counts for all title tags (50-60 chars)
+- [ ] Verify character counts for all meta descriptions (150-160 chars)
+- [ ] Check for duplicate titles across pages
+- [ ] Check for duplicate meta descriptions across pages
+- [ ] Validate University of Arizona branding consistency
+- [ ] Test mobile display truncation
+
+**Post-Implementation Monitoring:**
+- [ ] Google Search Console: Monitor CTR improvements
+- [ ] Weekly tracking of crisis recovery program performance
+- [ ] Monthly review of login page performance metrics
+- [ ] Quarterly audit of title tag and meta description effectiveness
+
+#### **Tools for Implementation & Testing**
+
+**Free Tools:**
+- **Google Search Console**: Monitor CTR and impression data
+- **Google SERP Simulator**: Preview how titles/descriptions appear
+- **Screaming Frog SEO Spider**: Audit all page titles and descriptions
+- **Browser Developer Tools**: Check character counts and mobile display
+
+**Paid Tools:**
+- **SEMrush**: Competitor title/description analysis
+- **Ahrefs**: Track ranking improvements post-optimization
+- **BrightEdge**: Enterprise-level title tag performance tracking
+
+### Performance Measurement Framework
+
+#### **Crisis Recovery Metrics**
+
+**Title Tag & Meta Description KPIs:**
+- **Overall CTR Target**: Improve from 0.056% to 1.5-2%
+- **Student Portal CTR**: Monitor login page performance improvements
+- **Business Programs**: Track CTR improvement from 0.01% baseline
+- **Masters Programs**: Monitor Page 1 ranking achievement
+- **Brand Search Recovery**: Track "UAGC" query CTR improvements
+
+**Weekly Monitoring Dashboard:**
+```markdown
+Week 1-4: Foundation Metrics
+- Title tag implementation completion rate
+- Meta description optimization progress
+- Initial CTR baseline establishment
+- Mobile display verification
+
+Week 5-8: Performance Tracking
+- CTR improvement percentage by page type
+- Crisis program performance indicators
+- Login page user engagement metrics
+- Brand search performance recovery
+
+Week 9-12: Optimization Refinement
+- A/B testing of high-performing variations
+- Success model scaling implementation
+- Cross-page performance correlation analysis
+- Strategic adjustment recommendations
+```
+
+#### **Success Validation Criteria**
+
+**30-Day Checkpoint:**
+- ✅ All critical pages have optimized titles and descriptions
+- ✅ Minimum 0.5% overall CTR achievement
+- ✅ Login pages showing improved engagement metrics
+- ✅ Crisis programs showing measurable improvement
+
+**60-Day Assessment:**
+- ✅ Business programs reaching 1%+ CTR
+- ✅ Student portal performance above baseline
+- ✅ Masters programs showing ranking improvements
+- ✅ Brand search CTR recovery indicators
+
+**90-Day Target:**
+- ✅ 15K-25K monthly clicks (1.5-2% CTR)
+- ✅ Sustained performance above industry standards
+- ✅ Success model validation for scaling
+- ✅ Strategic optimization recommendations for next phase
+
+### Integration with Broader SEO Strategy
+
+#### **Title Tag & Meta Description Optimization Connection Points**
+
+**LLMO Strategy Integration:**
+- Optimize for AI-readable content structure
+- Include keywords that LLMs recognize and trust
+- Structure descriptions for potential AI citation
+- Maintain consistency across multi-platform presence
+
+**Conversion Rate Optimization:**
+- Align title messaging with landing page content
+- Include conversion-focused benefits in descriptions
+- Test action-oriented language for CTR improvement
+- Coordinate with A/B testing of page content
+
+**Crisis Recovery Framework:**
+- Prioritize emergency program optimization
+- Scale successful models (nursing 24.75% CTR) across all pages
+- Implement working professionals messaging consistently
+- Focus on barrier removal (No GMAT/GRE) in meta content
+
+#### **Content Strategy Alignment**
+
+**Topic Cluster Support:**
+- Use consistent terminology across related pages
+- Create semantic relationships through title structure
+- Support pillar content with optimized cluster page titles
+- Maintain topical authority through description consistency
+
+**E-E-A-T Enhancement:**
+- Include expertise indicators in titles where appropriate
+- Highlight University of Arizona authority in descriptions
+- Reference accreditation and trust signals
+- Maintain consistency with authoritative content strategy
+
+---
+
+**Implementation Timeline:** Immediate implementation recommended for crisis recovery support.
+
+**Key Contact:** Omar (SEO & Tracking Manager) for implementation guidance and performance monitoring.
+
+**Related Resources:**
+- Crisis Recovery Framework (SEO & CRO Integration section)
+- Success Model Templates (Nursing 24.75% CTR pattern)
+- Strategic Intelligence Platform for cross-pillar performance tracking 
