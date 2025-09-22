@@ -47,7 +47,7 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/omac049/uagc-dx-documentation/edit/main/new-docs/',
+          editUrl: 'https://github.com/omac049/uagc-dx-documentation/edit/main/',
           showLastUpdateAuthor: false, // Disabled to prevent personal info exposure
           showLastUpdateTime: true,
           breadcrumbs: true,
