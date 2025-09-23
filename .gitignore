@@ -39,3 +39,5 @@ site/
 
 # Backup of original docs (temporarily kept)
 docs/ 
+# Cursor editor configuration
+.cursor/
