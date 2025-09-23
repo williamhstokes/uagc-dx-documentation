@@ -25,29 +25,69 @@ Use the search feature above or browse the navigation menu to find what you need
     <div class="team-member-grid">
       <div class="member-card leadership-card">
         <div class="member-header">
-          <div class="member-avatar"><img src="/uagc-dx-documentation/img/team/Thomas.jpeg" alt="Thomas - DX Director" width="70" height="70" /></div>
+          <div class="member-avatar">
+            <img src="/uagc-dx-documentation/img/team/Thomas.jpeg" alt="Thomas - DX Director" width="70" height="70" />
+            <div class="status-indicator available" title="Available"></div>
+          </div>
           <div class="member-info">
             <span class="member-name">Thomas</span>
             <span class="member-title">DX Director / Product Owner</span>
+            <div class="member-contact">
+              <span class="contact-item">📧 Slack: @thomas</span>
+              <span class="experience-badge">8+ years experience</span>
+            </div>
           </div>
         </div>
         <div class="member-content">
+          <div class="skill-tags">
+            <span class="skill-tag leadership">Strategy</span>
+            <span class="skill-tag leadership">Product</span>
+            <span class="skill-tag leadership">Roadmapping</span>
+          </div>
           <p class="member-responsibilities">🎯 Roadmap, priorities, release approval</p>
           <p class="member-bio">Product visionary who translates business goals into technical reality. Golden Girls fan and strategic thinker who keeps the team focused on what matters.</p>
+          <div class="member-highlights">
+            <div class="highlight-item">
+              <strong>Recent Win:</strong> Led Q3 strategic planning initiative
+            </div>
+            <div class="ask-me-about">
+              <strong>Ask me about:</strong> Product strategy, team priorities, release planning
+            </div>
+          </div>
         </div>
       </div>
       
       <div class="member-card leadership-card">
         <div class="member-header">
-          <div class="member-avatar"><img src="/uagc-dx-documentation/img/team/brandy.png" alt="Brandy - Operations Manager" width="70" height="70" /></div>
+          <div class="member-avatar">
+            <img src="/uagc-dx-documentation/img/team/brandy.png" alt="Brandy - Operations Manager" width="70" height="70" />
+            <div class="status-indicator available" title="Available"></div>
+          </div>
           <div class="member-info">
             <span class="member-name">Brandy</span>
             <span class="member-title">Digital Marketing & Web Operations Manager</span>
+            <div class="member-contact">
+              <span class="contact-item">📧 Slack: @brandy</span>
+              <span class="experience-badge">6+ years experience</span>
+            </div>
           </div>
         </div>
         <div class="member-content">
+          <div class="skill-tags">
+            <span class="skill-tag operations">Operations</span>
+            <span class="skill-tag operations">Training</span>
+            <span class="skill-tag operations">Process</span>
+          </div>
           <p class="member-responsibilities">⚙️ DX governance, CMS permissions, training</p>
           <p class="member-bio">Master of digital processes and team enablement. Loves creating order from chaos and ensuring everyone has the right tools to succeed.</p>
+          <div class="member-highlights">
+            <div class="highlight-item">
+              <strong>Recent Win:</strong> Streamlined CMS permission workflow
+            </div>
+            <div class="ask-me-about">
+              <strong>Ask me about:</strong> Asana workflows, team training, process optimization
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -67,10 +107,17 @@ Use the search feature above or browse the navigation menu to find what you need
       <div class="team-member-grid">
         <div class="member-card development-card">
           <div class="member-header">
-            <div class="member-avatar"><img src="/uagc-dx-documentation/img/team/Jason.jpeg" alt="Jason - Backend Developer" width="70" height="70" /></div>
+            <div class="member-avatar">
+              <img src="/uagc-dx-documentation/img/team/Jason.jpeg" alt="Jason - Backend Developer" width="70" height="70" />
+              <div class="status-indicator busy" title="In deep work mode"></div>
+            </div>
             <div class="member-info">
               <span class="member-name">Jason</span>
               <span class="member-title">Senior Backend Drupal Engineer</span>
+              <div class="member-contact">
+                <span class="contact-item">📧 Slack: @jason</span>
+                <span class="experience-badge">10+ years experience</span>
+              </div>
             </div>
           </div>
           <div class="member-content">
@@ -78,18 +125,34 @@ Use the search feature above or browse the navigation menu to find what you need
               <span class="skill-tag backend">Drupal</span>
               <span class="skill-tag backend">PHP</span>
               <span class="skill-tag backend">Security</span>
+              <span class="skill-tag backend">Architecture</span>
             </div>
             <p class="member-responsibilities">🏗️ Drupal architecture, custom modules, security</p>
             <p class="member-bio">Drupal wizard who can solve any backend challenge. When not coding, can be found exploring new tech frameworks and mentoring junior devs.</p>
+            <div class="member-highlights">
+              <div class="highlight-item">
+                <strong>Recent Win:</strong> Optimized database queries (40% performance boost)
+              </div>
+              <div class="ask-me-about">
+                <strong>Ask me about:</strong> Drupal best practices, security implementations, code architecture
+              </div>
+            </div>
           </div>
         </div>
         
         <div class="member-card development-card">
           <div class="member-header">
-            <div class="member-avatar"><img src="/uagc-dx-documentation/img/team/Will.jpeg" alt="Will - Backend Engineer" width="70" height="70" /></div>
+            <div class="member-avatar">
+              <img src="/uagc-dx-documentation/img/team/Will.jpeg" alt="Will - Backend Engineer" width="70" height="70" />
+              <div class="status-indicator available" title="Available"></div>
+            </div>
             <div class="member-info">
               <span class="member-name">Will</span>
               <span class="member-title">Backend Engineer</span>
+              <div class="member-contact">
+                <span class="contact-item">📧 Slack: @will</span>
+                <span class="experience-badge">7+ years experience</span>
+              </div>
             </div>
           </div>
           <div class="member-content">
@@ -97,9 +160,18 @@ Use the search feature above or browse the navigation menu to find what you need
               <span class="skill-tag backend">APIs</span>
               <span class="skill-tag devops">CI/CD</span>
               <span class="skill-tag devops">Pipelines</span>
+              <span class="skill-tag devops">Docker</span>
             </div>
             <p class="member-responsibilities">🔗 API endpoints, CI jobs, patch pipeline</p>
             <p class="member-bio">Integration specialist with a knack for automating everything. Believes in clean code and robust pipelines for seamless deployment.</p>
+            <div class="member-highlights">
+              <div class="highlight-item">
+                <strong>Recent Win:</strong> Automated deployment process (saved 5 hours/week)
+              </div>
+              <div class="ask-me-about">
+                <strong>Ask me about:</strong> API design, CI/CD setup, automation scripts
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -111,10 +183,17 @@ Use the search feature above or browse the navigation menu to find what you need
       <div class="team-member-grid">
         <div class="member-card development-card">
           <div class="member-header">
-            <div class="member-avatar"><img src="/uagc-dx-documentation/img/team/Brian.jpeg" alt="Brian - Frontend Developer" width="70" height="70" /></div>
+            <div class="member-avatar">
+              <img src="/uagc-dx-documentation/img/team/Brian.jpeg" alt="Brian - Frontend Developer" width="70" height="70" />
+              <div class="status-indicator available" title="Available"></div>
+            </div>
             <div class="member-info">
               <span class="member-name">Brian</span>
               <span class="member-title">Front-End Dev & QA Lead</span>
+              <div class="member-contact">
+                <span class="contact-item">📧 Slack: @brian</span>
+                <span class="experience-badge">8+ years experience</span>
+              </div>
             </div>
           </div>
           <div class="member-content">
@@ -122,18 +201,34 @@ Use the search feature above or browse the navigation menu to find what you need
               <span class="skill-tag frontend">Components</span>
               <span class="skill-tag frontend">A11y</span>
               <span class="skill-tag qa">Testing</span>
+              <span class="skill-tag frontend">React</span>
             </div>
             <p class="member-responsibilities">🧩 Component library, accessibility, QA test plans</p>
             <p class="member-bio">Design-minded developer who bridges the gap between aesthetics and functionality. Passionate about creating accessible experiences for all users.</p>
+            <div class="member-highlights">
+              <div class="highlight-item">
+                <strong>Recent Win:</strong> Achieved 100% WCAG compliance across all pages
+              </div>
+              <div class="ask-me-about">
+                <strong>Ask me about:</strong> Accessibility standards, component design, QA processes
+              </div>
+            </div>
           </div>
         </div>
         
         <div class="member-card development-card">
           <div class="member-header">
-            <div class="member-avatar"><img src="/uagc-dx-documentation/img/team/Anthony.jpeg" alt="Anthony - Frontend Developer" width="70" height="70" /></div>
+            <div class="member-avatar">
+              <img src="/uagc-dx-documentation/img/team/Anthony.jpeg" alt="Anthony - Frontend Developer" width="70" height="70" />
+              <div class="status-indicator focused" title="Running experiments"></div>
+            </div>
             <div class="member-info">
               <span class="member-name">Anthony</span>
               <span class="member-title">Front-End Developer & Experiment Engineer</span>
+              <div class="member-contact">
+                <span class="contact-item">📧 Slack: @anthony</span>
+                <span class="experience-badge">5+ years experience</span>
+              </div>
             </div>
           </div>
           <div class="member-content">
@@ -141,9 +236,18 @@ Use the search feature above or browse the navigation menu to find what you need
               <span class="skill-tag frontend">JavaScript</span>
               <span class="skill-tag data">dataLayer</span>
               <span class="skill-tag testing">A/B Tests</span>
+              <span class="skill-tag data">Analytics</span>
             </div>
             <p class="member-responsibilities">🧪 Optimizely tests, dataLayer, QA</p>
             <p class="member-bio">Data-driven developer with an eye for detail. Always asking "what if?" and designing experiments to improve user conversion and experience.</p>
+            <div class="member-highlights">
+              <div class="highlight-item">
+                <strong>Recent Win:</strong> A/B test increased RFI conversion by 12%
+              </div>
+              <div class="ask-me-about">
+                <strong>Ask me about:</strong> A/B testing, data tracking, conversion optimization
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -160,15 +264,36 @@ Use the search feature above or browse the navigation menu to find what you need
     <div class="team-member-grid">
       <div class="member-card marketing-card">
         <div class="member-header">
-          <div class="member-avatar"><img src="/uagc-dx-documentation/img/team/Omar.jpeg" alt="Omar - SEO Manager" width="70" height="70" /></div>
+          <div class="member-avatar">
+            <img src="/uagc-dx-documentation/img/team/Omar.jpeg" alt="Omar - SEO Manager" width="70" height="70" />
+            <div class="status-indicator available" title="Available"></div>
+          </div>
           <div class="member-info">
             <span class="member-name">Omar</span>
             <span class="member-title">SEO & Analytics Specialist</span>
+            <div class="member-contact">
+              <span class="contact-item">📧 Slack: @omar</span>
+              <span class="experience-badge">6+ years experience</span>
+            </div>
           </div>
         </div>
         <div class="member-content">
+          <div class="skill-tags">
+            <span class="skill-tag seo">SEO</span>
+            <span class="skill-tag analytics">GA4</span>
+            <span class="skill-tag analytics">GTM</span>
+            <span class="skill-tag seo">Strategy</span>
+          </div>
           <p class="member-responsibilities">🔍 SEO, GA4/GTM, GSC, LLMO, SEO Strategy, Analytics, Lead Mapping</p>
           <p class="member-bio">Bridges the gap between data and strategy. Focuses on search algorithm insights and user behavior analysis to optimize digital experiences and drive measurable results.</p>
+          <div class="member-highlights">
+            <div class="highlight-item">
+              <strong>Recent Win:</strong> Implemented comprehensive SEO strategy (35% organic growth)
+            </div>
+            <div class="ask-me-about">
+              <strong>Ask me about:</strong> SEO optimization, analytics setup, traffic analysis
+            </div>
+          </div>
         </div>
       </div>
     </div>

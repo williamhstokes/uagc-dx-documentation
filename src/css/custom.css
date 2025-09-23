@@ -226,6 +226,194 @@
   background-color: #607d8b;
 }
 
+.skill-tag.leadership {
+  background-color: #673ab7;
+}
+
+.skill-tag.operations {
+  background-color: #795548;
+}
+
+.skill-tag.seo {
+  background-color: #3f51b5;
+}
+
+.skill-tag.analytics {
+  background-color: #ff5722;
+}
+
+/* Enhanced Team Profile Elements */
+
+/* Status Indicators */
+.member-avatar {
+  position: relative;
+}
+
+.status-indicator {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid white;
+  z-index: 2;
+}
+
+.status-indicator.available {
+  background-color: #4caf50;
+}
+
+.status-indicator.busy {
+  background-color: #f44336;
+}
+
+.status-indicator.focused {
+  background-color: #ff9800;
+}
+
+/* Contact Information */
+.member-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+.contact-item {
+  font-size: 0.8rem;
+  color: var(--ifm-color-content-secondary);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.experience-badge {
+  background: linear-gradient(135deg, var(--ifm-color-primary-light), var(--ifm-color-primary));
+  color: white;
+  padding: 0.15rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0.25rem;
+  width: fit-content;
+}
+
+/* Member Highlights */
+.member-highlights {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.highlight-item {
+  background: linear-gradient(135deg, 
+    var(--ifm-color-emphasis-100) 0%, 
+    rgba(76, 175, 80, 0.05) 100%);
+  padding: 0.75rem;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+  border-left: 3px solid var(--color-accent-1);
+  font-size: 0.9rem;
+}
+
+.highlight-item strong {
+  color: var(--color-accent-1);
+}
+
+.ask-me-about {
+  background: linear-gradient(135deg, 
+    var(--ifm-color-emphasis-100) 0%, 
+    rgba(63, 81, 181, 0.05) 100%);
+  padding: 0.75rem;
+  border-radius: 6px;
+  border-left: 3px solid var(--ifm-color-primary);
+  font-size: 0.9rem;
+}
+
+.ask-me-about strong {
+  color: var(--ifm-color-primary);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+/* Enhanced Skill Tags for New Categories */
+.leadership-card .skill-tag.leadership {
+  background: linear-gradient(135deg, #673ab7, #9c27b0);
+}
+
+.leadership-card .skill-tag.operations {
+  background: linear-gradient(135deg, #795548, #8d6e63);
+}
+
+.marketing-card .skill-tag.seo {
+  background: linear-gradient(135deg, #3f51b5, #5c6bc0);
+}
+
+.marketing-card .skill-tag.analytics {
+  background: linear-gradient(135deg, #ff5722, #ff7043);
+}
+
+/* Improved Member Card Hover Effects */
+.member-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.member-card:hover .status-indicator {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+.member-card:hover .member-avatar img {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Contact Item Hover Effects */
+.contact-item:hover {
+  color: var(--ifm-color-primary);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+/* Experience Badge Variations */
+.leadership-card .experience-badge {
+  background: linear-gradient(135deg, #673ab7, #9c27b0);
+}
+
+.development-card .experience-badge {
+  background: linear-gradient(135deg, #2196f3, #64b5f6);
+}
+
+.marketing-card .experience-badge {
+  background: linear-gradient(135deg, #ff5722, #ff7043);
+}
+
+/* Responsive Improvements for Enhanced Profiles */
+@media (max-width: 768px) {
+  .member-contact {
+    align-items: center;
+    text-align: center;
+  }
+  
+  .experience-badge {
+    margin: 0.5rem auto 0 auto;
+  }
+  
+  .highlight-item, .ask-me-about {
+    font-size: 0.85rem;
+  }
+  
+  .status-indicator {
+    width: 14px;
+    height: 14px;
+    bottom: 0px;
+    right: 0px;
+  }
+}
+
 /* Grid container for overview cards */
 .grid-container {
   display: grid;
