@@ -394,38 +394,7 @@ description: Central home for every repeatable task that keeps uagc.edu running
   </div>
 </div>
 
-## 💬 Feedback & Contributions
 
-<div class="feedback-section">
-  <div class="feedback-content">
-    <h3>🚀 Help Us Improve</h3>
-    <p>This documentation is continuously improving. If you have suggestions:</p>
-    
-    <div class="feedback-steps">
-      <div class="step">
-        <span class="step-number">1</span>
-        <span class="step-text">Create an Asana task using the <strong>Documentation</strong> template</span>
-      </div>
-      <div class="step">
-        <span class="step-number">2</span>
-        <span class="step-text">Specify what needs to be updated</span>
-      </div>
-      <div class="step">
-        <span class="step-number">3</span>
-        <span class="step-text">Add any supporting information or examples</span>
-      </div>
-    </div>
-    
-    <div class="docs-day-banner">
-      <div class="banner-icon">📅</div>
-      <div class="banner-content">
-        <strong>Documentation Day</strong>
-        <p>We hold a quarterly "Docs Day" where each team member reviews and updates their documentation sections.</p>
-        <p><strong>Next scheduled Docs Day: September 15, 2025</strong></p>
-      </div>
-    </div>
-  </div>
-</div>
 
 ## ⚡ Quick Reference
 
