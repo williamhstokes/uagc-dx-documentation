@@ -219,7 +219,7 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const updateType = '${{ github.event.inputs.update_type || "patch" }}';
+            const updateType = "${{ github.event.inputs.update_type || 'patch' }}";
             const branchName = '${{ needs.apply-updates.outputs.branch_name }}';
             const summary = `${{ needs.check-updates.outputs.update_summary }}`;
             
