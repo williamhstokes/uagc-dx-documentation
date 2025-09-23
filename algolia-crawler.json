@@ -6,9 +6,23 @@
       "tags": ["homepage"]
     },
     {
+      "url": "https://omac049.github.io/uagc-dx-documentation/getting-started/",
+      "tags": ["getting-started"]
+    },
+    {
       "url": "https://omac049.github.io/uagc-dx-documentation/guides/",
       "tags": ["guides"],
       "selectors_key": "guides"
+    },
+    {
+      "url": "https://omac049.github.io/uagc-dx-documentation/programs/",
+      "tags": ["programs", "seo"],
+      "selectors_key": "programs"
+    },
+    {
+      "url": "https://omac049.github.io/uagc-dx-documentation/programs/academic-programs-catalog/",
+      "tags": ["programs", "catalog"],
+      "selectors_key": "programs"
     },
     {
       "url": "https://omac049.github.io/uagc-dx-documentation/analytics-standards/",
@@ -21,6 +35,18 @@
     {
       "url": "https://omac049.github.io/uagc-dx-documentation/ui-ux-best-practices/",
       "tags": ["design"]
+    },
+    {
+      "url": "https://omac049.github.io/uagc-dx-documentation/canonical-links-url-taxonomy/",
+      "tags": ["seo"]
+    },
+    {
+      "url": "https://omac049.github.io/uagc-dx-documentation/request-information-form/",
+      "tags": ["forms", "conversion"]
+    },
+    {
+      "url": "https://omac049.github.io/uagc-dx-documentation/development-workflows/",
+      "tags": ["development"]
     }
   ],
   "sitemap_urls": [
@@ -56,6 +82,17 @@
       "lvl3": "main h3",
       "lvl4": "main h4",
       "text": "main p, main li, main .admonition-content"
+    },
+    "programs": {
+      "lvl0": {
+        "selector": ".navbar__title",
+        "default_value": "UAGC Program SEO"
+      },
+      "lvl1": "main h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4",
+      "text": "main p, main li, main .admonition-content, main td"
     }
   },
   "selectors_exclude": [

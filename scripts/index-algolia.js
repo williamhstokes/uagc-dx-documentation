@@ -29,14 +29,73 @@ const DOCS_CONFIG = {
   docsPath: './new-docs',
   excludeFiles: ['.DS_Store', 'README.md'],
   categories: {
+    // Getting Started & Core
     'getting-started': { weight: 100, category: 'Getting Started' },
+    'index': { weight: 95, category: 'Home' },
+    'how-to-use': { weight: 90, category: 'Getting Started' },
+    'team-collaboration-guide': { weight: 85, category: 'Getting Started' },
+    
+    // Program SEO - Complete Catalog (NEW COMPREHENSIVE COVERAGE)
+    'programs/': { weight: 95, category: 'Program SEO' },
+    'programs/index': { weight: 100, category: 'Program SEO' },
+    'programs/academic-programs-catalog': { weight: 98, category: 'Program SEO' },
+    'programs/program-specifications': { weight: 95, category: 'Program SEO' },
+    
+    // NEW Program Categories by Degree Level
+    'programs/ba-business-economics': { weight: 92, category: 'Bachelor Programs' },
+    'programs/ba-communication-studies': { weight: 92, category: 'Bachelor Programs' },
+    'programs/ba-health-wellness': { weight: 92, category: 'Bachelor Programs' },
+    'programs/ba-social-science': { weight: 92, category: 'Bachelor Programs' },
+    'programs/ba-supply-chain-management': { weight: 92, category: 'Bachelor Programs' },
+    'programs/ma-teaching-learning-technology': { weight: 90, category: 'Master Programs' },
+    'programs/mps-leadership': { weight: 90, category: 'Master Programs' },
+    'programs/dps-organizational-development-leadership': { weight: 88, category: 'Doctoral Programs' },
+    
+    // Guides & Best Practices
     'guides/': { weight: 90, category: 'Guides' },
-    'analytics-standards': { weight: 85, category: 'Analytics' },
+    'guides/getting-started': { weight: 95, category: 'Guides' },
     'guides/seo-hygiene': { weight: 95, category: 'SEO Strategy' },
-    'wcag-compliance': { weight: 80, category: 'Accessibility' },
+    'guides/glossary': { weight: 85, category: 'Guides' },
+    'guides/checklist': { weight: 80, category: 'Guides' },
+    
+    // Analytics & Tracking
+    'analytics-standards': { weight: 85, category: 'Analytics' },
+    'ga4-setup-event-tracking': { weight: 83, category: 'Analytics' },
+    'gtm-configuration-datalayer': { weight: 83, category: 'Analytics' },
+    'digital-experience-enrollment-funnel': { weight: 80, category: 'Analytics' },
+    'enrollment-funnel-kpis': { weight: 80, category: 'Analytics' },
+    
+    // SEO & Web Guidelines
+    'canonical-links-url-taxonomy': { weight: 85, category: 'SEO' },
     'ui-ux-best-practices': { weight: 75, category: 'Design' },
+    'wcag-compliance': { weight: 80, category: 'Accessibility' },
+    'accessibility': { weight: 78, category: 'Accessibility' },
+    'accessibility-checklist': { weight: 76, category: 'Accessibility' },
+    
+    // Development & Operations
+    'development-workflows': { weight: 70, category: 'Development' },
+    'day-to-day-ops': { weight: 68, category: 'Operations' },
+    'common-tasks': { weight: 65, category: 'Operations' },
+    'documentation-workflow': { weight: 65, category: 'Operations' },
+    
+    // Team & Process
     'who-does-what': { weight: 70, category: 'Team' },
-    'canonical-links-url-taxonomy': { weight: 85, category: 'SEO' }
+    'asana': { weight: 65, category: 'Tools' },
+    'content-updates': { weight: 63, category: 'Content' },
+    'content-templates': { weight: 63, category: 'Content' },
+    
+    // Forms & Conversion
+    'request-information-form': { weight: 75, category: 'Forms' },
+    'user-consent-procedures': { weight: 70, category: 'Compliance' },
+    'cookie-organization': { weight: 68, category: 'Compliance' },
+    
+    // Testing & QA
+    'ab-testing': { weight: 60, category: 'Testing' },
+    'growth-roadmap': { weight: 58, category: 'Strategy' },
+    'why-this-exists': { weight: 55, category: 'About' },
+    'recent-updates': { weight: 50, category: 'Updates' },
+    'sitemap': { weight: 45, category: 'Navigation' },
+    'keyboard_shortcuts': { weight: 40, category: 'Reference' }
   }
 };
 
