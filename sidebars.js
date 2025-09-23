@@ -29,6 +29,7 @@ const sidebars = {
       items: [
         'digital-experience-enrollment-funnel',
         'guides/getting-started',
+        'team-collaboration-guide',
         'day-to-day-ops',
         'common-tasks',
         'who-does-what',
