@@ -4,20 +4,51 @@ title: UAGC DX Team Hub
 description: Central home for every repeatable task that keeps uagc.edu running
 ---
 
-# UAGC DX Team Hub
+<div class="hero-section">
+  <div class="hero-content">
+    <h1 class="hero-title">🚀 UAGC DX Team Hub</h1>
+    <p class="hero-subtitle">Central home for every repeatable task that keeps uagc.edu running</p>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-number">32+</span>
+        <span class="stat-label">Documentation Pages</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">7</span>
+        <span class="stat-label">Team Members</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">5</span>
+        <span class="stat-label">Core Workflows</span>
+      </div>
+    </div>
+  </div>
+</div>
 
-Welcome to the central documentation hub for the UAGC Digital Experience team. This site contains everything you need to maintain, update, and improve the uagc.edu website.
+<div class="welcome-section">
+  <div class="welcome-content">
+    <h2>👋 Welcome to Your Digital Experience Hub</h2>
+    <p>This site contains everything you need to maintain, update, and improve the uagc.edu website. From daily operations to strategic initiatives, find your answers here.</p>
+    
+    <div class="quick-access-banner">
+      <div class="banner-icon">🔍</div>
+      <div class="banner-content">
+        <strong>Need something specific?</strong>
+        <p>Use the search feature above or browse the navigation menu to find what you need.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-:::tip Need something specific?
-Use the search feature or browse the navigation menu to find what you need.
-:::
-
-## Team Members & Responsibilities
+## 👥 Team Members & Responsibilities
 
 <div class="team-sections">
   <div class="team-section">
     <div class="section-header leadership-header">
-      <h3>Leadership</h3>
+      <div class="header-content">
+        <span class="header-icon">👑</span>
+        <h3>Leadership</h3>
+      </div>
     </div>
     <div class="team-member-grid">
       <div class="member-card leadership-card">
@@ -29,7 +60,7 @@ Use the search feature or browse the navigation menu to find what you need.
           </div>
         </div>
         <div class="member-content">
-          <p class="member-responsibilities">Roadmap, priorities, release approval</p>
+          <p class="member-responsibilities">🎯 Roadmap, priorities, release approval</p>
           <p class="member-bio">Product visionary who translates business goals into technical reality. Golden Girls fan and strategic thinker who keeps the team focused on what matters.</p>
         </div>
       </div>
@@ -43,7 +74,7 @@ Use the search feature or browse the navigation menu to find what you need.
           </div>
         </div>
         <div class="member-content">
-          <p class="member-responsibilities">DX governance, CMS permissions, training</p>
+          <p class="member-responsibilities">⚙️ DX governance, CMS permissions, training</p>
           <p class="member-bio">Master of digital processes and team enablement. Loves creating order from chaos and ensuring everyone has the right tools to succeed.</p>
         </div>
       </div>
@@ -52,12 +83,15 @@ Use the search feature or browse the navigation menu to find what you need.
   
   <div class="team-section">
     <div class="section-header development-header">
-      <h3>Development Team</h3>
+      <div class="header-content">
+        <span class="header-icon">💻</span>
+        <h3>Development Team</h3>
+      </div>
     </div>
     
     <!-- Backend Development -->
     <div class="dev-subsection">
-      <h4 class="subsection-title">Backend Development</h4>
+      <h4 class="subsection-title">🔧 Backend Development</h4>
       <div class="team-member-grid">
         <div class="member-card development-card">
           <div class="member-header">
@@ -73,7 +107,7 @@ Use the search feature or browse the navigation menu to find what you need.
               <span class="skill-tag backend">PHP</span>
               <span class="skill-tag backend">Security</span>
             </div>
-            <p class="member-responsibilities">Drupal architecture, custom modules, security</p>
+            <p class="member-responsibilities">🏗️ Drupal architecture, custom modules, security</p>
             <p class="member-bio">Drupal wizard who can solve any backend challenge. When not coding, can be found exploring new tech frameworks and mentoring junior devs.</p>
           </div>
         </div>
@@ -92,7 +126,7 @@ Use the search feature or browse the navigation menu to find what you need.
               <span class="skill-tag devops">CI/CD</span>
               <span class="skill-tag devops">Pipelines</span>
             </div>
-            <p class="member-responsibilities">API endpoints, CI jobs, patch pipeline</p>
+            <p class="member-responsibilities">🔗 API endpoints, CI jobs, patch pipeline</p>
             <p class="member-bio">Integration specialist with a knack for automating everything. Believes in clean code and robust pipelines for seamless deployment.</p>
           </div>
         </div>
@@ -101,7 +135,7 @@ Use the search feature or browse the navigation menu to find what you need.
     
     <!-- Frontend Development & QA -->
     <div class="dev-subsection">
-      <h4 class="subsection-title">Frontend Development & QA</h4>
+      <h4 class="subsection-title">🎨 Frontend Development & QA</h4>
       <div class="team-member-grid">
         <div class="member-card development-card">
           <div class="member-header">
@@ -117,7 +151,7 @@ Use the search feature or browse the navigation menu to find what you need.
               <span class="skill-tag frontend">A11y</span>
               <span class="skill-tag qa">Testing</span>
             </div>
-            <p class="member-responsibilities">Component library, accessibility, QA test plans</p>
+            <p class="member-responsibilities">🧩 Component library, accessibility, QA test plans</p>
             <p class="member-bio">Design-minded developer who bridges the gap between aesthetics and functionality. Passionate about creating accessible experiences for all users.</p>
           </div>
         </div>
@@ -136,7 +170,7 @@ Use the search feature or browse the navigation menu to find what you need.
               <span class="skill-tag data">dataLayer</span>
               <span class="skill-tag testing">A/B Tests</span>
             </div>
-            <p class="member-responsibilities">Optimizely tests, dataLayer, QA</p>
+            <p class="member-responsibilities">🧪 Optimizely tests, dataLayer, QA</p>
             <p class="member-bio">Data-driven developer with an eye for detail. Always asking "what if?" and designing experiments to improve user conversion and experience.</p>
           </div>
         </div>
@@ -146,7 +180,10 @@ Use the search feature or browse the navigation menu to find what you need.
   
   <div class="team-section">
     <div class="section-header marketing-header">
-      <h3>Marketing & Analytics</h3>
+      <div class="header-content">
+        <span class="header-icon">📊</span>
+        <h3>Marketing & Analytics</h3>
+      </div>
     </div>
     <div class="team-member-grid">
       <div class="member-card marketing-card">
@@ -158,7 +195,7 @@ Use the search feature or browse the navigation menu to find what you need.
           </div>
         </div>
         <div class="member-content">
-          <p class="member-responsibilities">SEO, GA4/GTM, GSC, LLMO, SEO Strategy, Analytics, Lead Mapping</p>
+          <p class="member-responsibilities">🔍 SEO, GA4/GTM, GSC, LLMO, SEO Strategy, Analytics, Lead Mapping</p>
           <p class="member-bio">Bridges the gap between data and strategy. Focuses on search algorithm insights and user behavior analysis to optimize digital experiences and drive measurable results.</p>
         </div>
       </div>
@@ -166,54 +203,70 @@ Use the search feature or browse the navigation menu to find what you need.
   </div>
 </div>
 
-## Common Tasks
+## ⚡ Common Tasks
+
+<div class="section-intro">
+  <p>Jump right into your most frequent workflows. Each task has been streamlined for maximum efficiency.</p>
+</div>
 
 <div class="grid-container quick-links">
-  <div class="grid-card">
+  <div class="grid-card task-card">
+    <div class="card-icon">📝</div>
     <h3>Update Content</h3>
     <p>Add, edit, or redirect pages</p>
     <p><a href="/guides/page-changes" class="grid-link">Page Changes Guide →</a></p>
   </div>
   
-  <div class="grid-card">
+  <div class="grid-card task-card">
+    <div class="card-icon">✅</div>
     <h3>Run QA Test</h3>
     <p>Verify changes before launch</p>
     <p><a href="/guides/qa-smoke-test" class="grid-link">QA Checklist →</a></p>
   </div>
   
-  <div class="grid-card">
+  <div class="grid-card task-card">
+    <div class="card-icon">🔍</div>
     <h3>SEO Tasks</h3>
     <p>Fix SEO issues or create redirects</p>
     <p><a href="/guides/seo-hygiene" class="grid-link">SEO Guide →</a></p>
   </div>
   
-  <div class="grid-card">
+  <div class="grid-card task-card">
+    <div class="card-icon">📈</div>
     <h3>Track Analytics</h3>
     <p>Implement tracking and analyze data</p>
     <p><a href="/analytics-standards" class="grid-link">Analytics Standards →</a></p>
   </div>
   
-  <div class="grid-card">
+  <div class="grid-card task-card">
+    <div class="card-icon">📋</div>
     <h3>Manage Tasks</h3>
     <p>Create and track work in Asana</p>
     <p><a href="/asana" class="grid-link">Asana Guide →</a></p>
   </div>
 </div>
 
-## Documentation Categories
+## 📚 Documentation Categories
+
+<div class="section-intro">
+  <p>Comprehensive guides organized by expertise area. Find detailed procedures, standards, and best practices.</p>
+</div>
 
 <div class="grid-container overview-cards">
-  <div class="grid-card">
+  <div class="grid-card category-card">
+    <div class="card-icon">🚀</div>
     <h3>Getting Started</h3>
     <p>Onboarding and foundational information</p>
     <ul>
       <li><a href="/guides/getting-started">Onboarding Guide</a></li>
+      <li><a href="/team-collaboration-guide">Team Collaboration</a></li>
       <li><a href="/day-to-day-ops">Daily Operations</a></li>
       <li><a href="/who-does-what">Team Roles</a></li>
     </ul>
   </div>
   
-  <div class="grid-card">
+  <div class="grid-card category-card">
+    <div class="card-icon">⚙️</div>
     <h3>QA & Dev Notes</h3>
     <p>Development standards, QA processes, and technical documentation</p>
     <ul>
@@ -223,7 +276,8 @@ Use the search feature or browse the navigation menu to find what you need.
     </ul>
   </div>
   
-  <div class="grid-card">
+  <div class="grid-card category-card">
+    <div class="card-icon">📊</div>
     <h3>Tracking & Analytics</h3>
     <p>GA4, GTM, and data tracking implementation</p>
     <ul>
@@ -233,7 +287,8 @@ Use the search feature or browse the navigation menu to find what you need.
     </ul>
   </div>
   
-  <div class="grid-card">
+  <div class="grid-card category-card">
+    <div class="card-icon">🔍</div>
     <h3>SEO Guide</h3>
     <p>Search optimization and ranking strategies</p>
     <ul>
@@ -243,7 +298,8 @@ Use the search feature or browse the navigation menu to find what you need.
     </ul>
   </div>
 
-  <div class="grid-card">
+  <div class="grid-card category-card">
+    <div class="card-icon">♿</div>
     <h3>Web Guidelines</h3>
     <p>Content, accessibility, and UI/UX standards</p>
     <ul>
@@ -253,7 +309,8 @@ Use the search feature or browse the navigation menu to find what you need.
     </ul>
   </div>
 
-  <div class="grid-card">
+  <div class="grid-card category-card">
+    <div class="card-icon">🛠️</div>
     <h3>References & Tools</h3>
     <p>Workflow tools, processes, and reference materials</p>
     <ul>
@@ -264,92 +321,199 @@ Use the search feature or browse the navigation menu to find what you need.
   </div>
 </div>
 
-## Strategic Resources
+## 🎯 Strategic Resources
+
+<div class="section-intro">
+  <p>High-impact strategic initiatives and intelligence reports that drive UAGC's digital transformation.</p>
+</div>
 
 <div class="grid-container strategic-resources">
-  <div class="grid-card">
-    <h3>🚀 Strategic Intelligence Suite</h3>
+  <div class="grid-card strategic-card featured">
+    <div class="card-icon">🚀</div>
+    <h3>Strategic Intelligence Suite</h3>
     <p>Comprehensive strategic analysis for UAGC's digital transformation</p>
-    <p><a href="https://omac049.github.io/UAGC-Strategic-Intelligence/" class="grid-link" target="_blank">Strategic Intelligence Landing Page →</a></p>
+    <p><a href="https://omac049.github.io/UAGC-Strategic-Intelligence/" class="grid-link strategic-link" target="_blank">Strategic Intelligence Landing Page →</a></p>
   </div>
   
-  <div class="grid-card">
-    <h3>📈 SEO & CRO Strategy</h3>
+  <div class="grid-card strategic-card">
+    <div class="card-icon">📈</div>
+    <h3>SEO & CRO Strategy</h3>
     <p>40-60% traffic growth potential analysis and implementation roadmap</p>
     <p><a href="https://omac049.github.io/UAGC-Strategic-Intelligence/seo-cro-audit-uagc.html" class="grid-link" target="_blank">SEO/CRO Analysis →</a></p>
   </div>
   
-  <div class="grid-card">
-    <h3>🎯 Personalization Strategy</h3>
+  <div class="grid-card strategic-card">
+    <div class="card-icon">🎯</div>
+    <h3>Personalization Strategy</h3>
     <p>Cookie-based personalization framework for 20-25% RFI increase</p>
     <p><a href="https://omac049.github.io/UAGC-Strategic-Intelligence/cookie/UAGC-cookie-personalization.html" class="grid-link" target="_blank">Personalization Framework →</a></p>
   </div>
   
-  <div class="grid-card">
-    <h3>🛡️ Reputation Analysis</h3>
+  <div class="grid-card strategic-card">
+    <div class="card-icon">🛡️</div>
+    <h3>Reputation Analysis</h3>
     <p>Comprehensive brand reputation management and recovery strategy</p>
     <p><a href="https://omac049.github.io/UAGC-Strategic-Intelligence/Reputation%20management/uagc-comprehensive-reputation-analysis.html" class="grid-link" target="_blank">Reputation Strategy →</a></p>
   </div>
   
-  <div class="grid-card">
-    <h3>📊 SEO QBR</h3>
+  <div class="grid-card strategic-card">
+    <div class="card-icon">📊</div>
+    <h3>SEO QBR</h3>
     <p>Quarterly business review for SEO performance and strategy</p>
     <p><a href="https://omac049.github.io/uagc_seo_cro_qbr/" class="grid-link" target="_blank">SEO QBR Dashboard →</a></p>
   </div>
   
-  <div class="grid-card">
-    <h3>🤖 LLM Optimization</h3>
+  <div class="grid-card strategic-card">
+    <div class="card-icon">🤖</div>
+    <h3>LLM Optimization</h3>
     <p>Large Language Model optimization strategy for search visibility</p>
     <p><a href="https://omac049.github.io/uagc-seo-llm-optimization/" class="grid-link" target="_blank">LLM Strategy →</a></p>
   </div>
 </div>
 
-## Recent Updates
+## 🆕 Recent Updates
 
-- **[SEO Redirect Decision Tree](/guides/seo-redirects)** - Updated with new canonical link guidelines
-- **[Performance & Core Web Vitals](/guides/performance-web-vitals)** - Added mobile optimization section
-- **[Drupal Coding Standards](/guides/drupal-standards)** - Updated for latest Drupal version
+<div class="updates-container">
+  <div class="update-item">
+    <span class="update-icon">🔄</span>
+    <div class="update-content">
+      <strong><a href="/guides/seo-redirects">SEO Redirect Decision Tree</a></strong> - Updated with new canonical link guidelines
+    </div>
+  </div>
+  <div class="update-item">
+    <span class="update-icon">⚡</span>
+    <div class="update-content">
+      <strong><a href="/guides/performance-web-vitals">Performance & Core Web Vitals</a></strong> - Added mobile optimization section
+    </div>
+  </div>
+  <div class="update-item">
+    <span class="update-icon">💻</span>
+    <div class="update-content">
+      <strong><a href="/guides/drupal-standards">Drupal Coding Standards</a></strong> - Updated for latest Drupal version
+    </div>
+  </div>
+</div>
 
-## Feedback & Contributions
+## 💬 Feedback & Contributions
 
-This documentation is continuously improving. If you have suggestions:
+<div class="feedback-section">
+  <div class="feedback-content">
+    <h3>🚀 Help Us Improve</h3>
+    <p>This documentation is continuously improving. If you have suggestions:</p>
+    
+    <div class="feedback-steps">
+      <div class="step">
+        <span class="step-number">1</span>
+        <span class="step-text">Create an Asana task using the <strong>Documentation</strong> template</span>
+      </div>
+      <div class="step">
+        <span class="step-number">2</span>
+        <span class="step-text">Specify what needs to be updated</span>
+      </div>
+      <div class="step">
+        <span class="step-number">3</span>
+        <span class="step-text">Add any supporting information or examples</span>
+      </div>
+    </div>
+    
+    <div class="docs-day-banner">
+      <div class="banner-icon">📅</div>
+      <div class="banner-content">
+        <strong>Documentation Day</strong>
+        <p>We hold a quarterly "Docs Day" where each team member reviews and updates their documentation sections.</p>
+        <p><strong>Next scheduled Docs Day: September 15, 2025</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
 
-1. Create an Asana task using the **Documentation** template
-2. Specify what needs to be updated
-3. Add any supporting information or examples
+## ⚡ Quick Reference
 
-:::note Documentation Day
-We hold a quarterly "Docs Day" where each team member reviews and updates their documentation sections.
+<div class="quick-ref-intro">
+  <p>Your fastest path to common workflows. Bookmark this section for daily operations.</p>
+</div>
 
-Next scheduled Docs Day: **September 15, 2025**
-:::
+<div class="quick-reference-enhanced">
+  <div class="ref-item">
+    <div class="ref-icon">📋</div>
+    <div class="ref-content">
+      <div class="ref-task">Create Asana Task</div>
+      <div class="ref-link"><a href="/asana">Asana Guide →</a></div>
+      <div class="ref-owner">👤 Brandy</div>
+    </div>
+  </div>
+  
+  <div class="ref-item">
+    <div class="ref-icon">📝</div>
+    <div class="ref-content">
+      <div class="ref-task">Update Content</div>
+      <div class="ref-link"><a href="/guides/page-changes">Page Changes →</a></div>
+      <div class="ref-owner">👤 Brian</div>
+    </div>
+  </div>
+  
+  <div class="ref-item">
+    <div class="ref-icon">🧪</div>
+    <div class="ref-content">
+      <div class="ref-task">Set Up A/B Test</div>
+      <div class="ref-link"><a href="/guides/optimizely-tests">Optimizely Tests →</a></div>
+      <div class="ref-owner">👤 Anthony</div>
+    </div>
+  </div>
+  
+  <div class="ref-item">
+    <div class="ref-icon">🔍</div>
+    <div class="ref-content">
+      <div class="ref-task">Fix SEO Issue</div>
+      <div class="ref-link"><a href="/guides/seo-hygiene">SEO Hygiene →</a></div>
+      <div class="ref-owner">👤 Omar</div>
+    </div>
+  </div>
+  
+  <div class="ref-item">
+    <div class="ref-icon">✅</div>
+    <div class="ref-content">
+      <div class="ref-task">Run QA Check</div>
+      <div class="ref-link"><a href="/guides/qa-smoke-test">QA Smoke Test →</a></div>
+      <div class="ref-owner">👤 Brian</div>
+    </div>
+  </div>
+</div>
 
-## Quick Reference
+## 📈 Brand Intelligence Reports
 
-| Task | Go To | Owner |
-|------|-------|-------|
-| Create Asana Task | [Asana](/asana) | Brandy |
-| Update Content | [Page Changes](/guides/page-changes) | Brian |
-| Set Up A/B Test | [Optimizely Tests](/guides/optimizely-tests) | Anthony |
-| Fix SEO Issue | [SEO Hygiene](/guides/seo-hygiene) | Omar |
-| Run QA Check | [QA Smoke Test](/guides/qa-smoke-test) | Brian |
+<div class="intelligence-section">
+  <div class="intelligence-card">
+    <div class="card-header">
+      <div class="card-icon">📊</div>
+      <h3>UAGC Reddit Brand Perception Report</h3>
+    </div>
+    <p>Comprehensive analysis of UAGC brand mentions, sentiment trends, and competitive positioning across Reddit communities.</p>
+    
+    <div class="use-cases">
+      <h4>Use this report for:</h4>
+      <ul>
+        <li>🛡️ Brand health monitoring and reputation management</li>
+        <li>🏆 Competitive intelligence and market positioning insights</li>
+        <li>📝 Content strategy development and trending topic identification</li>
+        <li>🚨 Crisis management and issue response planning</li>
+      </ul>
+    </div>
+    
+    <p><a href="https://omac049.github.io/UAGC-Strategic-Intelligence/reddit/UAGC-Reddit-Brand-Perception-Report.html" class="cta-button" target="_blank">View Interactive Dashboard →</a></p>
+  </div>
+</div>
 
-## Strategic Resources
+## 📖 Contributing
 
-### Brand Intelligence Reports
+<div class="contributing-section">
+  <div class="contributing-content">
+    <p>Learn how to contribute to this documentation in the <a href="/documentation-workflow">Documentation Workflow</a> guide or check out our new <a href="/team-collaboration-guide">Team Collaboration Guide</a> for easy editing tips.</p>
+  </div>
+</div>
 
-**UAGC Reddit Brand Perception Report** - [View Interactive Dashboard →](https://omac049.github.io/UAGC-Strategic-Intelligence/reddit/UAGC-Reddit-Brand-Perception-Report.html)
-
-Comprehensive analysis of UAGC brand mentions, sentiment trends, and competitive positioning across Reddit communities. Use this report for:
-- Brand health monitoring and reputation management
-- Competitive intelligence and market positioning insights
-- Content strategy development and trending topic identification
-- Crisis management and issue response planning
-
-## Contributing
-
-Learn how to contribute to this documentation in the [Documentation Workflow](/documentation-workflow) guide.
-
----
-
-**Success Looks Like:** ↘ time-to-answer, ↘ QA slips, ↘ Slack back-and-forth; ↗ first-call resolution.
+<div class="success-banner">
+  <div class="banner-content">
+    <strong>Success Looks Like:</strong> ↘ time-to-answer, ↘ QA slips, ↘ Slack back-and-forth; ↗ first-call resolution.
+  </div>
+</div>
