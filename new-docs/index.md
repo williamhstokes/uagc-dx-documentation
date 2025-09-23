@@ -4,41 +4,13 @@ title: UAGC DX Team Hub
 description: Central home for every repeatable task that keeps uagc.edu running
 ---
 
-<div class="hero-section">
-  <div class="hero-content">
-    <h1 class="hero-title">🚀 UAGC DX Team Hub</h1>
-    <p class="hero-subtitle">Central home for every repeatable task that keeps uagc.edu running</p>
-    <div class="hero-stats">
-      <div class="stat-item">
-        <span class="stat-number">32+</span>
-        <span class="stat-label">Documentation Pages</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-number">7</span>
-        <span class="stat-label">Team Members</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-number">5</span>
-        <span class="stat-label">Core Workflows</span>
-      </div>
-    </div>
-  </div>
-</div>
+# UAGC DX Team Hub
 
-<div class="welcome-section">
-  <div class="welcome-content">
-    <h2>👋 Welcome to Your Digital Experience Hub</h2>
-    <p>This site contains everything you need to maintain, update, and improve the uagc.edu website. From daily operations to strategic initiatives, find your answers here.</p>
-    
-    <div class="quick-access-banner">
-      <div class="banner-icon">🔍</div>
-      <div class="banner-content">
-        <strong>Need something specific?</strong>
-        <p>Use the search feature above or browse the navigation menu to find what you need.</p>
-      </div>
-    </div>
-  </div>
-</div>
+Welcome to the central documentation hub for the UAGC Digital Experience team. This site contains everything you need to maintain, update, and improve the uagc.edu website. From daily operations to strategic initiatives, find your answers here.
+
+:::tip Need something specific?
+Use the search feature above or browse the navigation menu to find what you need.
+:::
 
 ## 👥 Team Members & Responsibilities
 
