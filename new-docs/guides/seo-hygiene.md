@@ -652,66 +652,363 @@ if (localStorage.getItem('programInterest') === 'business') {
 
 ## Content Strategy for 2025
 
-### Topic Clustering & Pillar Content
+Building on the [UAGC Content Strategy Priority List](https://omac049.github.io/UAGC-Strategic-Intelligence/UAGC-Content-Strategy-Priority-List.html) and [SEO-CRO Audit Part 4: Content Strategy](https://omac049.github.io/UAGC-Strategic-Intelligence/seo-cro-audit-uagc.html), our 2025 content approach focuses on high-impact pieces organized by customer journey stages with proven messaging formulas.
 
-Modern SEO rewards **topical authority** over individual keyword targeting. Build comprehensive content ecosystems around core topics.
+### Strategic Content Framework: 22 High-Impact Pieces
 
-**Implementation Framework:**
+Our content strategy is organized into **three customer journey stages**, each with specific content priorities designed to build brand authority, address audience concerns, and drive enrollment.
 
-1. **Pillar Pages**: Create comprehensive resources covering broad topics
-   - Example: "Complete Guide to Digital Marketing for Higher Education"
-   - 3,000+ words covering all aspects of the topic
-   - Links to 8-12 supporting cluster pages
+#### **Stage 1: Discovery & Awareness (10 Content Pieces)**
 
-2. **Cluster Content**: Develop supporting pages for specific subtopics
-   - "Social Media Marketing for Universities"
-   - "Email Marketing Best Practices for Student Recruitment"
-   - "Content Marketing Strategies for Online Programs"
+**Brand Positioning & Awareness Building:**
 
-3. **Internal Linking Strategy**: Connect related content with contextual links
-   - Use descriptive anchor text that indicates topic relevance
-   - Link from cluster pages back to pillar content
-   - Create topic-based navigation paths for users
+1. **"Online Learning vs. Traditional Education: 2025 Employer Study"**
+   - **Priority**: HIGH | **Keywords**: employer perception online degrees, online vs traditional education
+   - **Goal**: Address prospective student concerns about employer acceptance
+   - **Format**: Research report with survey data, infographics, executive summary
+   - **Success Metrics**: Page 1 rankings, 2%+ CTR, social shares, media citations
+
+2. **"Future of Work: Skills Every Professional Needs by 2030"**
+   - **Priority**: HIGH | **Keywords**: future job skills, career advancement 2030
+   - **Goal**: Position UAGC as thought leader in workforce development
+   - **Format**: Comprehensive guide with expert interviews and trend analysis
+   - **Success Metrics**: Industry authority signals, backlinks from career sites
+
+3. **"University of Arizona Global Campus: Your Questions Answered"**
+   - **Priority**: CRITICAL | **Keywords**: what is uagc, is uagc legitimate
+   - **Goal**: Build trust and clarify brand identity
+   - **Format**: Comprehensive FAQ with video testimonials
+   - **Success Metrics**: Branded search CTR improvement from 0.14% baseline
+
+4. **"UAGC vs. Ashford: What Changed and What It Means for Students"**
+   - **Priority**: HIGH | **Keywords**: uagc ashford difference, ashford university now
+   - **Goal**: Address legacy concerns and highlight improvements
+   - **Format**: Transparent timeline, before/after comparisons, student testimonials
+   - **Success Metrics**: Reputation score improvement, reduced negative sentiment
+
+5. **"Transfer Credits Guide: Maximize Your Previous Education at UAGC"**
+   - **Priority**: MEDIUM | **Keywords**: transfer credits online university, maximize transfer credits
+   - **Goal**: Remove enrollment barriers and demonstrate value
+   - **Format**: Step-by-step guide with transfer credit calculator
+   - **Success Metrics**: Time-to-degree messaging effectiveness, application starts
+
+6. **"Working Full-Time While Earning Your Degree: Real UAGC Student Stories"**
+   - **Priority**: HIGH | **Keywords**: work while studying, online degree working professionals
+   - **Goal**: Replicate nursing program success (24.75% CTR) across all programs
+   - **Format**: Video case studies, daily schedule examples, success statistics
+   - **Success Metrics**: Working professionals messaging resonance, engagement time
+
+7. **"ROI of Online Education: UAGC Graduate Career Outcomes 2024"**
+   - **Priority**: CRITICAL | **Keywords**: online degree ROI, career outcomes online education
+   - **Goal**: Demonstrate value and address skepticism with data
+   - **Format**: Interactive data visualization, salary comparisons, promotion rates
+   - **Success Metrics**: Consideration stage conversion rate improvements
+
+8. **"No GMAT/GRE Required: Why UAGC Business & Masters Programs Work Differently"**
+   - **Priority**: EMERGENCY | **Keywords**: no gmat business degree, no gre masters
+   - **Goal**: Remove barriers for business (0.01% CTR) and masters (0.11% CTR) programs
+   - **Format**: Explainer content, alternative admission requirements, success stories
+   - **Success Metrics**: Business program CTR to 2%+, Masters Page 1 rankings
+
+9. **"Accreditation Explained: What UAGC's WSCUC & IACBE Status Means"**
+   - **Priority**: HIGH | **Keywords**: uagc accreditation, wscuc iacbe accredited
+   - **Goal**: Build trust through educational quality demonstration
+   - **Format**: Plain-language guide, comparison charts, transfer/employer acceptance
+   - **Success Metrics**: Trust signals improvement, brand search performance
+
+10. **"2025 FAFSA Changes: How UAGC Students Can Benefit"**
+    - **Priority**: CRITICAL | **Keywords**: 2025 fafsa changes, pell grant expansion
+    - **Goal**: Capture federal aid opportunity with 610K new Pell-eligible students
+    - **Format**: Step-by-step guide, eligibility calculator, application assistance
+    - **Success Metrics**: Financial aid application starts, enrollment from expanded Pell
+
+#### **Stage 2: Research & Consideration (7 Content Pieces)**
+
+**Program Evaluation & Decision Support:**
+
+11. **"UAGC Program Selector: Find Your Ideal Degree Path"**
+    - **Priority**: HIGH | **Keywords**: choose online degree, best program for career
+    - **Goal**: Guide users to relevant programs based on career goals
+    - **Format**: Interactive quiz, program comparison tool, career path mapping
+    - **Success Metrics**: Program page visit increases, RFI quality scores
+
+12. **"Complete Guide to UAGC's Learning Format: What to Expect"**
+    - **Priority**: MEDIUM | **Keywords**: uagc class format, online learning experience
+    - **Goal**: Set accurate expectations and reduce enrollment friction
+    - **Format**: Video walkthroughs, sample coursework, student testimonials
+    - **Success Metrics**: Enrollment confirmation rates, student retention
+
+13. **"UAGC vs. [Competitor] Comparison Guide" (SNHU, WGU, Walden, Capella)**
+    - **Priority**: HIGH | **Keywords**: uagc vs [competitor], online university comparison
+    - **Goal**: Competitive differentiation with honest comparisons
+    - **Format**: Side-by-side comparison tables, unique value propositions
+    - **Success Metrics**: Consideration set inclusion, decision velocity
+
+14. **"Financing Your UAGC Education: Complete Financial Aid Guide"**
+    - **Priority**: CRITICAL | **Keywords**: uagc tuition cost, financial aid online degree
+    - **Goal**: Remove financial barriers and demonstrate affordability
+    - **Format**: Cost calculator, aid types explained, payment plan options
+    - **Success Metrics**: Financial objection resolution, application completion
+
+15. **"Career Services at UAGC: From Enrollment to Employment"**
+    - **Priority**: MEDIUM | **Keywords**: uagc career services, job placement support
+    - **Goal**: Demonstrate ongoing career support value
+    - **Format**: Services catalog, success metrics, employer partnerships
+    - **Success Metrics**: Career outcomes messaging effectiveness
+
+16. **"UAGC Faculty Spotlight: Meet the Experts Teaching Your Courses"**
+    - **Priority**: MEDIUM | **Keywords**: uagc faculty credentials, online professors
+    - **Goal**: Build confidence in educational quality through expertise
+    - **Format**: Faculty profiles, credentials, industry experience, student reviews
+    - **Success Metrics**: Educational quality perception improvements
+
+17. **"Time to Degree: How Fast Can You Graduate from UAGC?"**
+    - **Priority**: HIGH | **Keywords**: fastest online degree, accelerated programs
+    - **Goal**: Address time concerns for working professionals
+    - **Format**: Program length comparisons, acceleration options, transfer credit impact
+    - **Success Metrics**: Time-sensitive enrollment captures
+
+#### **Stage 3: Decision & Conversion (5 Content Pieces)**
+
+**Enrollment Support & Objection Handling:**
+
+18. **"UAGC Enrollment Process: Step-by-Step Application Guide"**
+    - **Priority**: CRITICAL | **Keywords**: how to apply uagc, enrollment process
+    - **Goal**: Simplify enrollment and reduce abandonment
+    - **Format**: Process visualization, application checklist, live chat support
+    - **Success Metrics**: Application completion rate, enrollment time reduction
+
+19. **"Start Dates & Enrollment Deadlines: Join UAGC This Quarter"**
+    - **Priority**: HIGH | **Keywords**: uagc start dates, when can i start
+    - **Goal**: Create urgency and capture immediate enrollment intent
+    - **Format**: Calendar view, program-specific deadlines, quick-start options
+    - **Success Metrics**: Enrollment velocity, deadline conversion rates
+
+20. **"Student Support Services: Help Available 24/7 at UAGC"**
+    - **Priority**: MEDIUM | **Keywords**: student support online university, academic help
+    - **Goal**: Reduce enrollment anxiety about online learning support
+    - **Format**: Support catalog, availability schedules, student success stories
+    - **Success Metrics**: Support-related objection resolution
+
+21. **"UAGC Alumni Success Stories: Where Graduates Are Now"**
+    - **Priority**: HIGH | **Keywords**: uagc graduates, alumni career success
+    - **Goal**: Provide social proof and outcome validation
+    - **Format**: Video testimonials, career progression stories, salary data
+    - **Success Metrics**: Social proof effectiveness, enrollment confidence
+
+22. **"Your First Week at UAGC: New Student Onboarding Guide"**
+    - **Priority**: MEDIUM | **Keywords**: starting uagc, new student guide
+    - **Goal**: Ease transition anxiety and improve retention
+    - **Format**: Welcome guide, week-by-week checklist, resource links
+    - **Success Metrics**: First-term retention, student satisfaction scores
+
+### Proven Messaging Formulas from High-Performing Programs
+
+#### **Success Model: Nursing Program (24.75% CTR)**
+
+**Formula**: **Working Professionals + Career Advancement + Flexible Support**
+
+**Messaging Components:**
+```markdown
+H1: "University of Arizona RN to BSN - Working Nurses Program"
+Hero: "Advance Your Nursing Career While Working Full-Time"
+Above Fold: "Flexible Schedule | Clinical Placements Near You | Career Advancement"
+Key Benefits:
+- Designed specifically for working nurses
+- Clinical locations convenient to your area  
+- Complete while maintaining current employment
+- Career advancement and salary increase potential
+```
+
+**Application Across All Content:**
+- Lead with working professional focus in all program content
+- Emphasize flexible scheduling as primary benefit
+- Highlight career advancement and salary outcomes
+- Include location/accessibility advantages
+
+#### **Success Model: MBA Program (14.72% CTR)**
+
+**Formula**: **No Barriers + Professional Focus + Career Outcomes**
+
+**Messaging Components:**
+```markdown
+H1: "UAGC MBA Program - No GMAT Required"
+Hero: "Advance Your Career Without Testing Barriers"
+Above Fold: "No GMAT | Working Professional Schedule | 92% Recruiter Demand"
+Key Benefits:
+- No GMAT requirement removes enrollment barriers
+- Program designed for full-time professionals
+- Strong employer recognition and hiring rates
+- Immediate career application of learning
+```
+
+**Application to Crisis Programs:**
+
+**Business Programs (Emergency - 0.01% CTR → 2%+ target):**
+```html
+<title>IACBE Accredited Business Degree Online - No GMAT | University of Arizona</title>
+<h1>IACBE Accredited Business Degree Online - No GMAT Required</h1>
+<meta name="description" content="25% average salary increase. IACBE accredited business degree online for working professionals. No GMAT required. University of Arizona Global Campus. Apply today.">
+
+Above Fold Content:
+- 25% Average Salary Increase for Graduates
+- IACBE Accredited - Employer Recognized
+- No GMAT Required - Start Faster
+- Flexible Schedule for Working Professionals
+```
+
+**Masters Programs (Page 1 Recovery - Position 11.61 → Top 5):**
+```html
+<title>Online Masters Degree for Working Professionals - No GMAT/GRE | UAGC</title>
+<h1>Advance Your Career While Working Full-Time</h1>
+<meta name="description" content="Advance your career while working full-time. No GMAT or GRE required. 92% of recruiters actively hire masters graduates. University of Arizona Global Campus.">
+
+Above Fold Content:
+- No GMAT/GRE Required
+- 92% of Recruiters Actively Hire Masters Graduates
+- Complete While Working Full-Time
+- University of Arizona Academic Excellence
+```
+
+### Topic Clustering & Pillar Content Architecture
+
+Modern SEO rewards **topical authority** over individual keyword targeting. Build comprehensive content ecosystems around core topics aligned with our 22 priority pieces.
+
+#### **Pillar Content Structure**
+
+**Primary Pillar Pages (Comprehensive Resources 3,000+ words):**
+
+1. **"Complete Guide to Online Education for Working Professionals"**
+   - Links to: Content pieces #1, #2, #6, #8, #12, #13, #17
+   - Target: Broad awareness and education stage
+   - Internal links: 15-20 contextual links to cluster content
+
+2. **"UAGC Program Guide: Choosing and Succeeding in Your Degree"**
+   - Links to: Content pieces #11, #14, #15, #16, #18
+   - Target: Consideration and evaluation stage
+   - Internal links: 12-15 program-specific pages
+
+3. **"UAGC Enrollment Success Guide: From Application to Graduation"**
+   - Links to: Content pieces #18, #19, #20, #21, #22
+   - Target: Decision and enrollment stage
+   - Internal links: 10-12 enrollment support pages
+
+4. **"University of Arizona Global Campus: Comprehensive Institution Guide"**
+   - Links to: Content pieces #3, #4, #9, #10
+   - Target: Brand trust and legitimacy
+   - Internal links: 8-12 institutional pages
+
+#### **Cluster Content Strategy**
+
+**Business Program Cluster (Crisis Recovery Priority):**
+```markdown
+Pillar: "IACBE Accredited Business Degrees at UAGC"
+
+Supporting Cluster Pages:
+- "Bachelor of Business Administration - No GMAT Required"
+- "MBA Program for Working Professionals"
+- "Business Administration Career Outcomes 2024"
+- "IACBE Accreditation: What It Means for Your Business Degree"
+- "Business Program Admissions: Requirements & Process"
+- "Business Student Success Stories"
+- "Business Degree ROI Calculator"
+- "Business Program Course Catalog"
+
+Internal Linking Pattern:
+- Each cluster page links back to pillar
+- Cross-link related cluster pages
+- Deep links to enrollment pages
+- Contextual links using target keywords
+```
+
+**Masters Program Cluster (Page 1 Recovery):**
+```markdown
+Pillar: "Online Masters Degrees - No GMAT/GRE Required"
+
+Supporting Cluster Pages:
+- "Master of Business Administration Online"
+- "Master of Science in Psychology"
+- "Master of Arts in Education"
+- "Master of Public Administration"
+- "Masters Program Admission - No GMAT/GRE"
+- "Masters Degree Career Advancement Data"
+- "Masters Student Success Stories"
+- "Masters Program Comparison Guide"
+
+Internal Linking Pattern:
+- Pillar → All program-specific pages
+- Program pages → Related program comparisons
+- Success stories → Relevant programs
+- All pages → No GMAT/GRE benefits content
+```
+
+#### **Internal Linking Best Practices**
+
+**Link Structure Principles:**
+- **Descriptive Anchor Text**: Use target keywords naturally
+- **Hierarchical Flow**: Pillar → Cluster → Conversion pages
+- **Topic Relevance**: Link semantically related content
+- **User Journey Alignment**: Support natural progression through stages
+
+**Example Internal Linking:**
+```html
+<!-- From Pillar Page -->
+<p>Working professionals seeking career advancement often consider 
+<a href="/programs/business/mba/">UAGC's MBA program</a>, which offers 
+<a href="/admissions/no-gmat-required/">no GMAT requirement</a> and 
+flexible scheduling designed for <a href="/student-life/working-professionals/">
+full-time professionals</a>.</p>
+
+<!-- From Cluster Page Back to Pillar -->
+<p>For a comprehensive overview of all graduate programs, see our complete 
+<a href="/online-degrees/masters/">masters degree guide</a>.</p>
+```
 
 ### E-E-A-T Optimization (Experience, Expertise, Authoritativeness, Trustworthiness)
 
 **Building Experience Signals:**
-- Include first-hand accounts and case studies
-- Showcase real student success stories and outcomes
-- Document actual program experiences and results
-- Use original research and data from UAGC
+- **First-Hand Accounts**: Include real student stories in content pieces #6, #21
+- **Actual Outcomes**: Document verified career outcomes in content pieces #7, #15
+- **Program Experiences**: Showcase authentic learning experiences in content piece #12
+- **Original Research**: Use UAGC-specific data in content pieces #1, #2, #7
 
 **Demonstrating Expertise:**
-- Author bios highlighting relevant qualifications and experience
-- Citing authoritative sources and academic research
-- Including expert quotes and interviews
-- Regular content updates showing current knowledge
+- **Author Credentials**: Faculty profiles in content piece #16 with qualifications
+- **Academic Sources**: Cite authoritative educational research throughout
+- **Expert Perspectives**: Include faculty insights and industry expert interviews
+- **Current Knowledge**: Quarterly content updates showing latest trends
 
 **Establishing Authority:**
-- Building high-quality backlinks from educational institutions
-- Getting mentioned in industry publications and research
-- Speaking at conferences and educational events
-- Maintaining active professional social media presence
+- **Educational Backlinks**: Partner with .edu sites for content distribution
+- **Industry Recognition**: Feature in higher ed publications and research
+- **Conference Presence**: Speaking engagements and thought leadership
+- **Professional Networks**: Active LinkedIn, educational community engagement
 
 **Proving Trustworthiness:**
-- Transparent contact information and author details
-- Clear privacy policies and data handling practices
-- Secure website (HTTPS) with up-to-date certificates
-- Accurate, fact-checked information with proper citations
+- **Transparency**: Clear institutional information in content pieces #3, #4
+- **Accurate Information**: Fact-checked data with citations in all content
+- **Privacy Compliance**: Clear data handling in content piece #18
+- **Security Standards**: HTTPS, up-to-date certificates across all content
 
 ### Content Optimization Best Practices
 
 **Structure for Both Users and AI:**
-- Use clear headings (H1, H2, H3) that outline content hierarchy
-- Include table of contents for longer pieces
-- Add FAQ sections addressing common questions
-- Use bullet points and numbered lists for scannable content
+- **Clear Hierarchy**: Use H1, H2, H3 headers that outline content flow
+- **Table of Contents**: Include for all content pieces over 1,500 words
+- **FAQ Sections**: Add to all 22 priority content pieces for featured snippets
+- **Scannable Format**: Bullet points, numbered lists, data tables throughout
 
 **Optimize for Featured Snippets:**
-- Answer specific questions clearly and concisely
-- Use structured formats (lists, tables, step-by-step instructions)
-- Include relevant statistics and data points
-- Format content to match common snippet types
+- **Question Formats**: Structure content pieces #3, #9, #12, #14 as Q&A
+- **List Formats**: Use numbered steps in content pieces #18, #22
+- **Table Formats**: Comparison tables in content pieces #11, #13, #17
+- **Definition Formats**: Clear explanations in content pieces #4, #9
+
+**AI Search Optimization (LLMO):**
+- **Conversational Language**: Natural tone for voice search compatibility
+- **Direct Answers**: First paragraph answers primary question
+- **Contextual Depth**: Comprehensive coverage for AI citation trust
+- **Structured Data**: Schema markup on all 22 priority content pieces
 
 ## Technical SEO Excellence
 
