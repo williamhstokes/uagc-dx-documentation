@@ -802,6 +802,382 @@ Our content strategy is organized into **three customer journey stages**, each w
     - **Format**: Welcome guide, week-by-week checklist, resource links
     - **Success Metrics**: First-term retention, student satisfaction scores
 
+### Blog Content Strategy: New Program Launches (2025)
+
+Strategic blog content to support 8 new programs launching in 2025, creating organic visibility and authority in emerging career fields. All blogs are Stage 1: Discovery & Awareness content designed to build brand awareness, answer career questions, and establish UAGC as a thought leader.
+
+:::tip Advanced SEO Strategy
+Blog content for new programs should launch **60-90 days before** program pages go live to build domain authority, capture early search demand, and create internal linking opportunities. Each blog should include CTAs directing to program interest forms.
+:::
+
+#### **BA in Business Economics - Blog Content Series (6 pieces)**
+
+**Program Focus**: Data analytics, applied economics, financial analysis careers
+
+23. **"What Can You Do With a Business Economics Degree in 2025?"**
+    - **Priority**: CRITICAL | **Keywords**: business economics degree careers, what can you do with business economics
+    - **Target Audience**: Career explorers, career changers
+    - **Content**: Career paths (financial analyst, market analyst, economist, business strategist), salary data from BLS, day-in-the-life profiles
+    - **SEO Strategy**: Target "People Also Ask" queries, include career salary tables, BLS job growth statistics (+6.9% business/financial)
+    - **Internal Links**: Link to BA Business Economics program page, career services, financial aid
+    - **Success Metrics**: Page 1 rankings for career-related queries, 2%+ CTR, program page traffic
+
+24. **"Data Analytics Skills Every Business Professional Needs in 2025"**
+    - **Priority**: HIGH | **Keywords**: data analytics skills, business data analytics, AI in economics
+    - **Target Audience**: Working professionals, recent graduates
+    - **Content**: Essential analytics skills, AI integration in business economics, tools (Python, R, Excel, Tableau), how UAGC teaches these skills
+    - **SEO Strategy**: Skill-based keywords, "how to learn" queries, technology integration messaging
+    - **Internal Links**: BA Business Economics courses (AIS 300 Data Analytics), program learning outcomes
+    - **Success Metrics**: Skills-focused search visibility, engagement time 3+ minutes
+
+25. **"Business Economics vs. Business Administration: Which Degree is Right for You?"**
+    - **Priority**: HIGH | **Keywords**: business economics vs business administration, economics degree or business degree
+    - **Target Audience**: Program comparison researchers
+    - **Content**: Side-by-side comparison table, career outcome differences, salary comparisons, when to choose each degree
+    - **SEO Strategy**: Comparison keywords, decision-support content, FAQ schema markup
+    - **Internal Links**: Both program pages, program selector tool, admissions
+    - **Success Metrics**: Comparison query rankings, program page conversion rate
+
+26. **"How to Become a Financial Analyst: Skills, Education & Career Path 2025"**
+    - **Priority**: HIGH | **Keywords**: how to become financial analyst, financial analyst degree, financial analyst education
+    - **Target Audience**: Aspiring financial analysts
+    - **Content**: Step-by-step career path, educational requirements, certifications (CFA), skills needed, UAGC preparation
+    - **SEO Strategy**: Career guide format, how-to queries, certification pathways
+    - **Internal Links**: BA Business Economics program, career services, success stories
+    - **Success Metrics**: Featured snippet acquisition, career path query visibility
+
+27. **"The Future of Economics: AI, Data Science, and Career Opportunities"**
+    - **Priority**: MEDIUM | **Keywords**: future of economics careers, AI in economics, data science economics
+    - **Target Audience**: Forward-thinking professionals, STEM-interested students
+    - **Content**: Industry trends, AI integration, machine learning in economics, emerging career paths
+    - **SEO Strategy**: Thought leadership, trend-focused keywords, World Economic Forum citations
+    - **Internal Links**: BA Business Economics AI/data focus, program PLOs, faculty expertise
+    - **Success Metrics**: Industry authority signals, backlinks from career sites
+
+28. **"Is a Business Economics Degree Worth It? ROI Analysis 2025"**
+    - **Priority**: MEDIUM | **Keywords**: is business economics degree worth it, business economics degree ROI
+    - **Target Audience**: Value-conscious prospective students
+    - **Content**: Salary data, employment rates, ROI calculations, graduate success stories, cost vs. benefit analysis
+    - **SEO Strategy**: ROI/value keywords, data-driven content, testimonial integration
+    - **Internal Links**: Tuition/financial aid, career outcomes, graduate success stories
+    - **Success Metrics**: Value proposition query rankings, RFI form submissions
+
+#### **BA in Supply Chain Management - Blog Content Series (6 pieces)**
+
+**Program Focus**: Logistics, procurement, operations, ERP systems
+
+29. **"Supply Chain Management Careers: Salaries, Growth & Opportunities 2025"**
+    - **Priority**: CRITICAL | **Keywords**: supply chain management careers, logistician salary, supply chain jobs
+    - **Target Audience**: Career explorers, logistics professionals
+    - **Content**: Career paths (logistician, procurement manager, operations manager), BLS data (19.3% growth, $87.6K median), industry demand
+    - **SEO Strategy**: Career + salary keywords, BLS statistics, job growth data
+    - **Internal Links**: BA Supply Chain Management program, career paths section
+    - **Success Metrics**: Career query Page 1 rankings, 2%+ CTR
+
+30. **"What is Supply Chain Management? Complete Guide for 2025"**
+    - **Priority**: HIGH | **Keywords**: what is supply chain management, supply chain management explained
+    - **Target Audience**: Industry newcomers, career changers
+    - **Content**: SCM definition, role in business, modern SCM technology (ERP, AI), career opportunities, why it matters
+    - **SEO Strategy**: Definitional queries, introductory content, FAQ schema
+    - **Internal Links**: BA Supply Chain Management program, what you'll learn section
+    - **Success Metrics**: Featured snippet for "what is supply chain management", high dwell time
+
+31. **"Supply Chain Certifications: APICS, CSCP & How UAGC Prepares You"**
+    - **Priority**: HIGH | **Keywords**: apics certification, cscp certification, supply chain certifications
+    - **Target Audience**: Career advancement seekers, certification candidates
+    - **Content**: ASCM/APICS certifications, how UAGC curriculum aligns, career boost from certifications, preparation pathway
+    - **SEO Strategy**: Certification keywords, ASCM partnership messaging, career advancement focus
+    - **Internal Links**: BA Supply Chain Management ASCM alignment, course curriculum
+    - **Success Metrics**: Certification query visibility, program differentiation messaging effectiveness
+
+32. **"ERP Systems in Supply Chain: What You Need to Know in 2025"**
+    - **Priority**: MEDIUM | **Keywords**: erp supply chain, supply chain technology, digital logistics
+    - **Target Audience**: Technology-focused professionals
+    - **Content**: ERP systems explained, digital transformation in SCM, skills needed, how UAGC teaches ERP (SCM 300 course)
+    - **SEO Strategy**: Technology keywords, digital transformation trends, skill-building content
+    - **Internal Links**: SCM 300 Technologies in Modern SCM course, program curriculum
+    - **Success Metrics**: Technology-focused query rankings, engagement with course content
+
+33. **"Logistics Manager vs. Supply Chain Manager: Career Comparison"**
+    - **Priority**: MEDIUM | **Keywords**: logistics vs supply chain, logistics manager vs supply chain manager
+    - **Target Audience**: Career decision-makers
+    - **Content**: Role differences, salary comparisons, career paths, skills for each, which role fits your goals
+    - **SEO Strategy**: Comparison keywords, role differentiation, career guidance
+    - **Internal Links**: BA Supply Chain Management career paths, program selector
+    - **Success Metrics**: Comparison query rankings, career clarity metrics
+
+34. **"Sustainability in Supply Chain Management: Careers in Green Logistics"**
+    - **Priority**: MEDIUM | **Keywords**: sustainable supply chain, green logistics careers, supply chain sustainability
+    - **Target Audience**: Sustainability-focused professionals
+    - **Content**: Sustainability trends, green logistics careers, environmental focus in SCM, UAGC curriculum alignment
+    - **SEO Strategy**: Sustainability keywords, ESG trends, emerging career focus
+    - **Internal Links**: BA Supply Chain Management sustainability focus, program courses
+    - **Success Metrics**: Emerging trend query visibility, values-aligned enrollment signals
+
+#### **BA in Health & Wellness - Blog Content Series (5 pieces)**
+
+**Program Focus**: Wellness coaching, corporate wellness, community health, nutrition
+
+35. **"Health and Wellness Careers: Paths, Salaries & Growth in 2025"**
+    - **Priority**: CRITICAL | **Keywords**: health and wellness careers, wellness coach salary, health promotion jobs
+    - **Target Audience**: Health-focused career seekers
+    - **Content**: Career options (wellness coach, health educator, corporate wellness coordinator), salary data, job growth, work environments
+    - **SEO Strategy**: Career exploration keywords, salary data, diverse career paths
+    - **Internal Links**: BA Health & Wellness program, career paths section
+    - **Success Metrics**: Career query Page 1 rankings, program interest form submissions
+
+36. **"Corporate Wellness Programs: How to Start a Career in Employee Health"**
+    - **Priority**: HIGH | **Keywords**: corporate wellness careers, employee wellness programs, workplace wellness
+    - **Target Audience**: HR professionals, health professionals
+    - **Content**: Corporate wellness industry overview, career opportunities, required skills, how UAGC prepares you, industry growth
+    - **SEO Strategy**: Corporate wellness keywords, B2B health content, career pathway focus
+    - **Internal Links**: BA Health & Wellness corporate focus, program courses
+    - **Success Metrics**: Corporate wellness query visibility, professional audience engagement
+
+37. **"Wellness Coach vs. Health Educator: Which Career is Right for You?"**
+    - **Priority**: MEDIUM | **Keywords**: wellness coach vs health educator, health careers comparison
+    - **Target Audience**: Career comparison researchers
+    - **Content**: Role differences, education requirements, certification options, career settings, salary comparison
+    - **SEO Strategy**: Comparison keywords, decision-support content, role clarity
+    - **Internal Links**: BA Health & Wellness career paths, program learning outcomes
+    - **Success Metrics**: Comparison query rankings, career decision velocity
+
+38. **"Stress Management Careers: Helping Others Find Balance in 2025"**
+    - **Priority**: MEDIUM | **Keywords**: stress management careers, mental wellness jobs, health psychology careers
+    - **Target Audience**: Mental health-interested professionals
+    - **Content**: Stress management specialist roles, behavior change careers, counseling pathways, UAGC course focus (HWE 415, PSY 380)
+    - **SEO Strategy**: Mental wellness keywords, behavior change focus, course curriculum highlights
+    - **Internal Links**: BA Health & Wellness psychology courses, program curriculum
+    - **Success Metrics**: Mental wellness query visibility, course-specific interest
+
+39. **"Is a Health and Wellness Degree Worth It? Career Outlook & ROI"**
+    - **Priority**: MEDIUM | **Keywords**: health and wellness degree worth it, wellness degree ROI
+    - **Target Audience**: Value-conscious prospective students
+    - **Content**: Career demand, salary potential, job satisfaction, ROI analysis, graduate outcomes, industry growth
+    - **SEO Strategy**: Value/ROI keywords, career justification content, outcome data
+    - **Internal Links**: Tuition/financial aid, career services, graduate success
+    - **Success Metrics**: Value proposition query rankings, enrollment consideration signals
+
+#### **BA in Communication Studies - Blog Content Series (5 pieces)**
+
+**Program Focus**: Digital media, content creation, public relations, storytelling
+
+40. **"Communication Studies Careers: From Social Media to Public Relations"**
+    - **Priority**: CRITICAL | **Keywords**: communication studies careers, communication degree jobs, media careers
+    - **Target Audience**: Media-interested students, career changers
+    - **Content**: Diverse career paths (PR specialist, social media manager, content creator, journalist), salary ranges, job markets
+    - **SEO Strategy**: Career diversity keywords, modern media careers, digital focus
+    - **Internal Links**: BA Communication Studies program, career paths section
+    - **Success Metrics**: Career query Page 1 rankings, program page traffic
+
+41. **"How to Become a Social Media Manager: Skills, Education & Career Path"**
+    - **Priority**: HIGH | **Keywords**: how to become social media manager, social media manager education, digital marketing careers
+    - **Target Audience**: Digital marketing aspirants
+    - **Content**: Social media manager role, required skills, educational pathways, UAGC digital presence curriculum (COM 150), industry trends
+    - **SEO Strategy**: How-to keywords, digital career focus, role-specific guidance
+    - **Internal Links**: BA Communication Studies digital courses, program PLOs
+    - **Success Metrics**: Featured snippet potential, social media career query visibility
+
+42. **"Content Creation Careers in 2025: From Influencer to Brand Strategist"**
+    - **Priority**: HIGH | **Keywords**: content creation careers, influencer career path, digital content creator jobs
+    - **Target Audience**: Creative professionals, digital natives
+    - **Content**: Content creator economy, brand strategist roles, independent journalism, influencer pathways, UAGC preparation
+    - **SEO Strategy**: Creator economy keywords, modern media careers, entrepreneurial focus
+    - **Internal Links**: BA Communication Studies content courses, storytelling focus
+    - **Success Metrics**: Creator economy query visibility, younger demographic engagement
+
+43. **"AI in Communication: How Technology is Changing Media Careers"**
+    - **Priority**: MEDIUM | **Keywords**: AI in communication, AI content creation, future of media careers
+    - **Target Audience**: Tech-forward communicators
+    - **Content**: AI tools in media, ethical AI use (COM 333), technology integration, future career skills, UAGC AI curriculum
+    - **SEO Strategy**: AI + communication keywords, future-focused content, technology trends
+    - **Internal Links**: BA Communication Studies AI focus, ethics courses
+    - **Success Metrics**: Technology trend query visibility, forward-thinking audience signals
+
+44. **"Public Relations vs. Marketing: Which Communication Career Fits You?"**
+    - **Priority**: MEDIUM | **Keywords**: public relations vs marketing, PR vs marketing careers
+    - **Target Audience**: Career decision-makers
+    - **Content**: Role distinctions, skill differences, career paths, salary comparisons, which personality fits each field
+    - **SEO Strategy**: Comparison keywords, career clarity content, decision support
+    - **Internal Links**: BA Communication Studies PR focus, program selector
+    - **Success Metrics**: Comparison query rankings, career decision confidence
+
+#### **BA in Social Science - Blog Content Series (4 pieces)**
+
+**Program Focus**: Interdisciplinary research, policy analysis, social change
+
+45. **"What Can You Do With a Social Science Degree? 2025 Career Guide"**
+    - **Priority**: CRITICAL | **Keywords**: social science degree careers, what can you do with social science degree
+    - **Target Audience**: Interdisciplinary thinkers, career explorers
+    - **Content**: Career diversity (policy analyst, market researcher, community development, HR specialist), interdisciplinary skills value, emerging opportunities
+    - **SEO Strategy**: Career breadth keywords, interdisciplinary focus, skills-based hiring trends
+    - **Internal Links**: BA Social Science program, career paths section
+    - **Success Metrics**: Career query Page 1 rankings, interdisciplinary messaging effectiveness
+
+46. **"Social Science Research Methods: Skills That Drive Modern Careers"**
+    - **Priority**: HIGH | **Keywords**: social science research methods, qualitative research skills, data analysis careers
+    - **Target Audience**: Research-interested students, data professionals
+    - **Content**: Research methods overview, qualitative & quantitative skills, career applications, UAGC capstone focus (SSC 460)
+    - **SEO Strategy**: Skills keywords, research methodology focus, practical application
+    - **Internal Links**: BA Social Science research courses, capstone project
+    - **Success Metrics**: Research skills query visibility, methodology-focused engagement
+
+47. **"Careers in Policy Analysis: How Social Science Shapes Public Decision-Making"**
+    - **Priority**: MEDIUM | **Keywords**: policy analyst career, public policy careers, social science policy jobs
+    - **Target Audience**: Policy-interested professionals, government career seekers
+    - **Content**: Policy analyst roles, government & nonprofit opportunities, required skills, educational pathways, impact focus
+    - **SEO Strategy**: Policy career keywords, public service focus, impact-driven messaging
+    - **Internal Links**: BA Social Science policy focus, global economic perspectives course
+    - **Success Metrics**: Policy career query visibility, purpose-driven enrollment signals
+
+48. **"Interdisciplinary Degrees: Why Social Science Prepares You for Diverse Careers"**
+    - **Priority**: MEDIUM | **Keywords**: interdisciplinary degree value, social science degree worth it, transferable skills
+    - **Target Audience**: Career flexibility seekers
+    - **Content**: Value of interdisciplinary education, transferable skills, adaptability in job market, World Economic Forum future skills alignment
+    - **SEO Strategy**: Skills-based hiring trends, career adaptability focus, future-of-work alignment
+    - **Internal Links**: BA Social Science program, skills development focus
+    - **Success Metrics**: Skills-based career query rankings, career adaptability messaging
+
+#### **MA in Teaching, Learning & Technology - Blog Content Series (6 pieces)**
+
+**Program Focus**: Educational technology, AI in education, instructional design
+
+49. **"Educational Technology Careers: Opportunities Beyond the Classroom in 2025"**
+    - **Priority**: CRITICAL | **Keywords**: educational technology careers, instructional designer jobs, ed tech careers
+    - **Target Audience**: Educators, technology specialists
+    - **Content**: Career paths (educational technologist, instructional designer, technology integration specialist, online learning specialist), salary data, PK-20 opportunities
+    - **SEO Strategy**: Career diversity keywords, beyond-teaching careers, salary focus
+    - **Internal Links**: MA Teaching Learning Technology program, career paths section
+    - **Success Metrics**: Career query Page 1 rankings, educator career transition signals
+
+50. **"AI in Education: How Artificial Intelligence is Transforming Teaching"**
+    - **Priority**: HIGH | **Keywords**: AI in education, artificial intelligence teaching, AI educational technology
+    - **Target Audience**: Forward-thinking educators, technology integrators
+    - **Content**: AI applications in education, ethical considerations, career opportunities, UAGC AI certificate (EDU652, EDU655, EDU656), future trends
+    - **SEO Strategy**: AI + education keywords, emerging technology focus, certification pathway
+    - **Internal Links**: MA MATLT AI courses, AI in Education certificate
+    - **Success Metrics**: AI education query visibility, certificate interest signals
+
+51. **"Instructional Design Careers: From Corporate Training to Higher Ed"**
+    - **Priority**: HIGH | **Keywords**: instructional design careers, instructional designer salary, ID careers
+    - **Target Audience**: Career changers, corporate trainers
+    - **Content**: Instructional design role, corporate vs. higher ed opportunities, required skills, UAGC preparation, portfolio development
+    - **SEO Strategy**: Role-specific keywords, cross-industry career focus, skills development
+    - **Internal Links**: MA MATLT instructional design focus, course curriculum
+    - **Success Metrics**: Instructional design query visibility, career transition engagement
+
+52. **"Online Teaching Certification: How to Become an Online Educator"**
+    - **Priority**: MEDIUM | **Keywords**: online teaching certification, how to teach online, virtual teaching credentials
+    - **Target Audience**: Teachers, aspiring online educators
+    - **Content**: Online teaching skills, certification pathways, UAGC Online Teaching & Learning certificate, best practices, industry demand
+    - **SEO Strategy**: Certification keywords, online education careers, credential pathways
+    - **Internal Links**: MA MATLT Online Teaching certificate, course details
+    - **Success Metrics**: Certification query visibility, educator professional development interest
+
+53. **"EdTech vs. Instructional Design: Which Career Path Should You Choose?"**
+    - **Priority**: MEDIUM | **Keywords**: educational technology vs instructional design, ed tech careers comparison
+    - **Target Audience**: Career decision-makers in education
+    - **Content**: Role differences, career paths, salary comparisons, skills required, industry settings, decision framework
+    - **SEO Strategy**: Comparison keywords, career clarity, role differentiation
+    - **Internal Links**: MA MATLT program flexibility, career paths section
+    - **Success Metrics**: Comparison query rankings, career decision confidence
+
+54. **"Master's in Educational Technology: Is It Worth It for Teachers?"**
+    - **Priority**: MEDIUM | **Keywords**: master's in educational technology worth it, ed tech master's ROI
+    - **Target Audience**: Practicing teachers, educational professionals
+    - **Content**: Career advancement, salary increases, leadership opportunities, SMART Track option for UAGC undergrads, ROI analysis, no licensure clarity
+    - **SEO Strategy**: Value/ROI keywords, teacher advancement focus, SMART Track differentiation
+    - **Internal Links**: Tuition/financial aid, SMART Track program, career advancement data
+    - **Success Metrics**: Value proposition query rankings, teacher enrollment signals
+
+#### **DPS in Organizational Development & Leadership - Blog Content Series (5 pieces)**
+
+**Program Focus**: Applied doctorate, leadership psychology, organizational consulting
+
+55. **"DPS vs. PhD in Leadership: Which Doctoral Degree is Right for You?"**
+    - **Priority**: CRITICAL | **Keywords**: dps vs phd, doctor of professional studies vs phd, applied doctorate
+    - **Target Audience**: Doctoral program researchers
+    - **Content**: DPS vs PhD distinctions, applied vs theoretical research, career paths, dissertation vs Applied Doctoral Project, UAGC Carnegie alignment
+    - **SEO Strategy**: Degree comparison keywords, applied doctorate focus, decision-support content
+    - **Internal Links**: DPS Organizational Development Leadership program, ADP vs dissertation
+    - **Success Metrics**: Doctoral comparison query Page 1 rankings, program differentiation effectiveness
+
+56. **"Organizational Development Careers: Leadership Roles at the Doctoral Level"**
+    - **Priority**: HIGH | **Keywords**: organizational development careers, OD consultant careers, executive leadership careers
+    - **Target Audience**: Senior professionals, aspiring executives
+    - **Content**: Executive leader, OD consultant, HR director, higher ed administrator roles, salary data, BLS growth stats (+15.2% health/human services)
+    - **SEO Strategy**: Executive-level career keywords, senior role focus, leadership pathways
+    - **Internal Links**: DPS ODL program, career paths section
+    - **Success Metrics**: Executive career query visibility, senior professional engagement
+
+57. **"What is an Applied Doctoral Project? UAGC's Alternative to Dissertation"**
+    - **Priority**: HIGH | **Keywords**: applied doctoral project, adp vs dissertation, professional doctorate project
+    - **Target Audience**: Doctoral candidates, working professionals
+    - **Content**: ADP explained, Carnegie "Dissertation in Practice" model, practical research focus, how it differs from traditional dissertation, timeline
+    - **SEO Strategy**: ADP differentiation keywords, practitioner-scholar focus, program uniqueness
+    - **Internal Links**: DPS ODL Applied Doctoral Project, program structure
+    - **Success Metrics**: ADP query visibility, working professional appeal
+
+58. **"Performance Psychology Leadership: Emerging Careers in Human Optimization"**
+    - **Priority**: MEDIUM | **Keywords**: performance psychology careers, leadership psychology, organizational psychology doctorate
+    - **Target Audience**: Psychology-focused leaders, performance coaches
+    - **Content**: Performance psychology specialization, career opportunities, coaching roles, organizational applications, UAGC DPS specialization
+    - **SEO Strategy**: Specialization keywords, emerging field focus, niche career visibility
+    - **Internal Links**: DPS ODL Performance Psychology specialization, courses
+    - **Success Metrics**: Specialization query visibility, niche audience targeting
+
+59. **"Earning a Doctorate While Working: How DPS Programs Support Professionals"**
+    - **Priority**: MEDIUM | **Keywords**: doctorate while working, working professional doctorate, online doctoral programs
+    - **Target Audience**: Working professionals, career advancers
+    - **Content**: Flexible doctoral education, cohort model, 120-week timeline, balancing work and study, UAGC support structure
+    - **SEO Strategy**: Working professional keywords, flexibility focus, career continuation
+    - **Internal Links**: DPS ODL program format, flexible scheduling
+    - **Success Metrics**: Working professional doctorate query rankings, enrollment barrier reduction
+
+#### **MPS in Leadership - Blog Content Series (5 pieces)**
+
+**Program Focus**: Ethical leadership, AI literacy, systems thinking, change management
+
+60. **"Master of Professional Studies vs. MBA: Which Leadership Degree is Right?"**
+    - **Priority**: CRITICAL | **Keywords**: mps vs mba, master of professional studies vs mba, leadership degree comparison
+    - **Target Audience**: Graduate program researchers
+    - **Content**: MPS vs MBA differences, career paths, curriculum focus, ROI comparison, when to choose each degree, UAGC MPS uniqueness
+    - **SEO Strategy**: Degree comparison keywords, leadership focus differentiation, decision support
+    - **Internal Links**: MPS Leadership program, MBA program, program selector
+    - **Success Metrics**: Graduate program comparison Page 1 rankings, informed decision-making
+
+61. **"AI Leadership Skills: Preparing for Technology-Driven Management in 2025"**
+    - **Priority**: HIGH | **Keywords**: AI leadership skills, AI for leaders, technology leadership training
+    - **Target Audience**: Technology-focused leaders
+    - **Content**: AI literacy for leaders, digital governance, technology adoption strategies, UAGC AI course (AI & Emerging Technologies for Leaders), future skills
+    - **SEO Strategy**: AI + leadership keywords, future skills focus, technology integration
+    - **Internal Links**: MPS Leadership AI course, program curriculum
+    - **Success Metrics**: AI leadership query visibility, tech-forward leader engagement
+
+62. **"Change Management Careers: Leading Organizational Transformation"**
+    - **Priority**: HIGH | **Keywords**: change management careers, organizational change consultant, change leadership
+    - **Target Audience**: Change-focused professionals
+    - **Content**: Change management roles, consultant careers, required skills, UAGC Innovation & Change Leadership focus, industry demand
+    - **SEO Strategy**: Change management keywords, consulting career focus, transformation leadership
+    - **Internal Links**: MPS Leadership change course, Systems Change specialization
+    - **Success Metrics**: Change management query visibility, consultant career interest
+
+63. **"Emotional Intelligence in Leadership: Why EQ Matters More Than Ever"**
+    - **Priority**: MEDIUM | **Keywords**: emotional intelligence leadership, eq leadership, social intelligence leaders
+    - **Target Audience**: People-focused leaders, HR professionals
+    - **Content**: EQ in leadership, social intelligence skills, UAGC EQ course (Leading with Emotional & Social Intelligence), research backing, practical applications
+    - **SEO Strategy**: Soft skills keywords, EQ leadership trends, human-centered leadership
+    - **Internal Links**: MPS Leadership EQ course, program learning outcomes
+    - **Success Metrics**: EQ leadership query visibility, people-focused leader engagement
+
+64. **"Data Literacy for Leaders: Making Informed Decisions in the Digital Age"**
+    - **Priority**: MEDIUM | **Keywords**: data literacy for leaders, data-driven leadership, business analytics for managers
+    - **Target Audience**: Data-focused managers, strategic leaders
+    - **Content**: Data literacy importance, data-driven decision-making, visualization skills, UAGC Data Literacy course, practical applications
+    - **SEO Strategy**: Data skills keywords, decision-making focus, analytics integration
+    - **Internal Links**: MPS Leadership data course, stackable certificates
+    - **Success Metrics**: Data leadership query visibility, analytics-focused enrollment
+
 ### Proven Messaging Formulas from High-Performing Programs
 
 #### **Success Model: Nursing Program (24.75% CTR)**
