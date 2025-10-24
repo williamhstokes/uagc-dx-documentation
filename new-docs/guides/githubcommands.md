@@ -1,18 +1,3 @@
----
-is_guide: true
-owner: Development Team
-last_updated: 2025-10-24
-difficulty: Beginner
-description: "A comprehensive guide to essential GitHub features and commands for managing the UAGC website repository, including cloning, branching, committing, pull requests, and more."
-related_guides:
-  - title: Development Workflows
-    url: ../development-workflows/
-  - title: Release & Incident Management
-    url: ./release-incident/
-  - title: QA Smoke Test
-    url: ./qa-smoke-test/
----
-
 # GitHub Commands & Features Guide
 
 This guide provides a comprehensive overview of essential GitHub features and commands for managing the UAGC website repository.
